@@ -11,11 +11,12 @@ namespace BackHackaton.Controllers
     [ApiController]
     public class TournamentController : ControllerBase
     {
+        DataAbstractionLayer dataAbstraction = new DataAbstractionLayer();
         [HttpGet]
         public List<Tournaments> GetAllTournaments()
         {
 
-            return DataAbstractionLayer.SelectAllTournaments();
+            return dataAbstraction.SelectAllTournaments();
 
         }
     }

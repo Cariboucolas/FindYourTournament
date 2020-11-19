@@ -23,7 +23,7 @@ namespace BackHackaton
             return _connection;
         }
 
-        public  List<Tournaments> SelectAllTournamentss()
+        public List<Tournaments> SelectAllTournaments()
         {
             SqlCommand command = _connection.CreateCommand();
             command.CommandText = "SELECT " +
@@ -64,9 +64,56 @@ namespace BackHackaton
 
                 tournaments.Add(tournament);
             }
-            reader.Close();
+
+
+
+
+            public List<Knight> SelectAllKnghts()
+            {
+                SqlCommand command = _connection.CreateCommand();
+                command.CommandText = "SELECT " +
+                                                                                "TournamentId, " +
+                                                                                "TournamentName," +
+                                                                                "TournamentDate," +
+                                                                                "Price," +
+                                                                                "Prize," +
+                                                                                "TournamentLocation," +
+                                                                                "ISNULL(TournamentType, '')," +
+                                                                                "Description" +
+                                                                                "Participants" +
+                                                                                "ISNULL(Champion, '')," +
+                                                                                "Images," +
+                                                                                "Videos" +
+                                                                                    "FROM Tournament" +
+                                                                                    "ORDER BY TournamentDate";
+
+                SqlDataReader reader = command.ExecuteReader();
+                List<Tournaments> tournaments = new List<Tournaments>();
+                while (reader.Read())
+                {
+                    Tournaments tournament = new Tournaments
+                    {
+                        TournamentId = reader.GetInt32(0),
+                        TournamentName = reader.GetString(1),
+                        TournamentDate = reader.GetDateTime(2),
+                        Price = reader.GetInt32(3),
+                        Prize = reader.GetInt32(4),
+                        TournamentLocation = reader.GetString(5),
+                        TournamentType = reader.GetString(6),
+                        Descrpition = reader.GetString(7),
+                        Participants = reader.GetInt32(8),
+                        Champion = reader.GetString(9),
+                        Images = reader.GetString(10),
+                        Videos = reader.GetString(11)
+                    };
+
+                    tournaments.Add(tournament);
+                }
+                reader.Close();
             return tournaments;
         }
+
+
 
 
         public  void Close()
