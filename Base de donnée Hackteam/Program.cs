@@ -69,6 +69,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "sword , shield", 
                     Armors = "Plate Armor",
                     Ranking = 3,
+                    Avatar = "https://images.uesp.net/6/61/BL-icon-avatar-Ebony_Armor.png",
                     
                 };
                 Knight knight2 = new Knight()
@@ -83,6 +84,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Wood stick",
                     Armors = "goat leather",
                     Ranking = 4,
+                    Avatar = "https://images.uesp.net/8/8e/BL-icon-avatar-Variant_Imperial_Male.png",
                     
 
                 };
@@ -102,7 +104,7 @@ namespace Base_de_donnée_Hackteam
                     Armors = "pants",
                     Ranking = 1,
                     Pigeon = "sparte@pigeon.com",
-                    Avatar = "",
+                    Avatar = "https://images.uesp.net/1/1e/BL-icon-avatar-Original_Imperial_Male.png",
 
 
                 };
@@ -120,6 +122,7 @@ namespace Base_de_donnée_Hackteam
                     Armors = "chestplate",
                     Pigeon = "VillaPoggioManzuoli@pigeon.com",
                     Ranking = 2,
+                    Avatar = "https://images.uesp.net/c/c7/BL-icon-avatar-Variant_Breton_Male.png",
 
                 };
                 Knight knight5 = new Knight()
@@ -135,6 +138,7 @@ namespace Base_de_donnée_Hackteam
                     Armors = "Big walls",
                     Ranking = 5,
                     Pigeon = "Angleterre@pigeon.com"
+                    Avatar = "https://images.uesp.net/0/05/BL-icon-avatar-Steel_Armor.png",
 
                 };
                 context.AddRange(tournament1, tournament2, tournament3, tournament4, knight1, knight2, knight3, knight4, knight5);
