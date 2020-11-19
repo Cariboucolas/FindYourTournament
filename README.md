@@ -3,6 +3,7 @@
 ## Team members:
 * Lisa Lou 
 * Emilie DelSol
+* Herve MESTE
 * Colas DURCY
 * Rooarii MANUEL
 
