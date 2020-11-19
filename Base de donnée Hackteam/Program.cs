@@ -137,7 +137,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "More humans",
                     Armors = "Big walls",
                     Ranking = 5,
-                    Pigeon = "Angleterre@pigeon.com"
+                    Pigeon = "Angleterre@pigeon.com",
                     Avatar = "https://images.uesp.net/0/05/BL-icon-avatar-Steel_Armor.png",
 
                 };
