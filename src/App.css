@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+a{
+  text-decoration: none;
+  cursor: auto;
+  color: white;
+}
+
+h1{
+  font-family: 'Sofadi One', cursive;
+  font-size: 6.5vw;
+  margin: 1%;
+}
