@@ -1,16 +1,15 @@
 .card-ranking-container {
   display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 30px;
-    background: #141E30;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
-    max-width: 60%;
-    align-items: center;
-    margin: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 12px;
+  background: #ED213A;
+  background: -webkit-linear-gradient(to bottom, #93291E, #ED213A);
+  background: linear-gradient(to bottom, #93291E, #ED213A);
+  max-width: 60%;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

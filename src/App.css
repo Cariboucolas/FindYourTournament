@@ -19,9 +19,9 @@ a{
   font-family: 'Sofadi One', cursive;
 }
 
-h1{
+.home-logo{
   font-family: 'Sofadi One', cursive;
-  font-size: 6.5vw;
+  font-size: 6rem;
   margin: 1%;
 }
 

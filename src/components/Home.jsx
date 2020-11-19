@@ -6,7 +6,6 @@ function Home() {
 
   return (
     <>
-      <h1 className="home">FYT</h1>
       <div
         style={{
           backgroundImage: `url(${background_image})`,

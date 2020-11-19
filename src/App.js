@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
 import SearchTournament from './components/SearchTournament';
 import Profile from './components/Profile';
@@ -18,6 +18,9 @@ function App() {
         <Router>
           <ScrollToTop />
           <NavBar />
+          <Link to="/" >
+          <h1 className="home-logo">FYT</h1>
+          </Link>
           <Switch>
             <Route exact path="/">
               <Home />

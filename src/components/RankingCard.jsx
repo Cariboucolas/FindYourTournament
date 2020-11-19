@@ -13,15 +13,20 @@ function RankingCard({ knight }) {
           <div className="avatar-rank-card">
             <img src={knight.avatar} alt={knight.knightName} />
           </div>
-          <div className="knight-infos-rank-card">
             <h2>{knight.knightName} </h2>
             <div>Victories: {knight.victories}</div>
             <div>Defeats: {knight.defeats}</div>
-          </div>
+  
           <div className="badge-rank-card">
             <img src={knight.badge} alt="badge level" />
           </div>
-        </div>
+          <div className="badge-rank-card">
+            <img src={knight.banner} alt="banner" />
+          </div>
+          <div className="status">
+            <img src={knight.alive} alt="status" />
+          </div>
+          </div>
       </Link>
     </>
   )
