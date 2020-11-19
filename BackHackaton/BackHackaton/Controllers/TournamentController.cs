@@ -9,7 +9,14 @@ namespace BackHackaton.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class Tournament : ControllerBase
+    public class TournamentController : ControllerBase
     {
+        [HttpGet]
+        public List<Tournaments> GetAllTournaments()
+        {
+
+            return DataAbstractionLayer.SelectAllTournaments();
+
+        }
     }
 }
