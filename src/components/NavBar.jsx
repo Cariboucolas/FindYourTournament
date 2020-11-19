@@ -71,8 +71,8 @@ class NavBar extends React.Component {
             id="contact" 
             className="menu-item" 
             onClick={() => this.closeMenu()} 
-            to="/profile">
-        Profile
+            to="/my-profile">
+        My profile
         </Link>
         <Link 
             onClick={ this.showSettings } 

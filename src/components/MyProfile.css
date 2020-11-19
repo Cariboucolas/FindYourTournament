@@ -1,0 +1,8 @@
+.profile-info-container {
+  display: flex;
+justify-content: center;
+}
+
+.profile-container {
+  padding: 20px;
+}
