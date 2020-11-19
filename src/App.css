@@ -15,11 +15,11 @@ a {
   text-decoration: none;
   cursor: auto;
   color: white;
-  font-family: 'Sofadi One', cursive;
+  font-family: 'Nanum Brush Script', cursive;
 }
 
 .home-logo {
-  font-family: 'Sofadi One', cursive;
+  font-family: 'Nanum Brush Script', cursive;
   font-size: 6rem;
   margin: 1%;
 }
@@ -44,7 +44,7 @@ a {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: 'Sofadi One', cursive;
+  font-family: 'Nanum Brush Script', cursive;
 }
 
 .App-link {
