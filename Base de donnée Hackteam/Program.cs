@@ -21,7 +21,10 @@ namespace Base_de_donnée_Hackteam
                     TournamentLocation = "Chateau de Versailles",
                     Description = "Viens de friter contre ton rival",
                     TournamentType = "Au sol",
-                    Participants = 25,               
+                    Participants = 25,  
+                    Champion = "Anosdagan",
+                    Images = "", // URL image tournoi
+                    Videos = "", // URL image tournoi
                 };
                 Tournament tournament2 = new Tournament()
                 {
@@ -33,6 +36,7 @@ namespace Base_de_donnée_Hackteam
                     Description = "Viens labourer la pelouse",
                     TournamentType = "Cheval",
                     Participants = 10,
+                    Champion = "Creddred",
                 };
                 Tournament tournament3 = new Tournament()
                 {
@@ -56,94 +60,685 @@ namespace Base_de_donnée_Hackteam
                     TournamentType = "Au sol",
                     Participants = 10,
                 };
+                
+                context.AddRange(tournament1, tournament2, tournament3, tournament4);
+                context.SaveChanges();
 
-                Knight knight1  = new Knight()
+                Knight knight1 = new Knight()
                 {
-                    KnightName = "La machine",
-                    Age = 25,
+                    KnightName = "Anosdagan",
+                    Age = 24,
+                    Victories = 10,
+                    Defeats = 1,
+                    Banner = "", // URL banner
+                    Weapons = "Sword, shield",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Plate armor",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = true,
+                    MountType = "Warhorse",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "Cannasson",
+                    Moto = "Houra!",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    Mount = false,
-                    Region = "Occitanie",
-                    Moto = "Banzai",
-                    Victories = 5,
-                    Weapons = "sword , shield", 
-                    Armors = "Plate Armor",
+                    AliveIcons = "", // URL AliveIcons
                     Ranking = 3,
-                    Avatar = "https://images.uesp.net/6/61/BL-icon-avatar-Ebony_Armor.png",
-                    
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
                 };
                 Knight knight2 = new Knight()
                 {
-                    KnightName = "Le jeunot",
-                    Age = 16,
-                    Alive = true,
+                    KnightName = "Autfred",
+                    Age = 32,
+                    Victories = 3,
+                    Defeats = 6,
+                    Banner = "", // URL banner
+                    Weapons = "Spear",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Breastplate",
+                    ArmorsIcons = "", // URL armorIcons
                     Mount = false,
-                    Region = "Breton",
-                    Moto = "Ne me tuez pas",
-                    Victories = 0,
-                    Weapons = "Wood stick",
-                    Armors = "goat leather",
-                    Ranking = 4,
-                    Avatar = "https://images.uesp.net/8/8e/BL-icon-avatar-Variant_Imperial_Male.png",
-                    
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "I am not afraid of death !",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 21,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
 
                 };
                 Knight knight3 = new Knight()
                 {
-                    KnightName = "Leonidas",
-                    Age = 35,
+                    KnightName = "Bertlance",
+                    Age = 43,
+                    Victories = 25,
+                    Defeats = 9,
+                    Banner = "", // URL banner
+                    Weapons = "Mace",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Chainmail",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "Fear me !",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    Mount = true,
-                    MountName = "Xerxès",
-                    MountType = "Man",
-                    Region = "Greecce",
-                    Moto = "WAHOU",
-                    Victories = 65,
-                    Defeats = 0,
-                    Weapons = "sword, spear, shield",
-                    Armors = "pants",
-                    Ranking = 1,
-                    Pigeon = "sparte@pigeon.com",
-                    Avatar = "https://images.uesp.net/1/1e/BL-icon-avatar-Original_Imperial_Male.png",
-
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 4,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
 
                 };
                 Knight knight4 = new Knight()
                 {
-                    KnightName = "Maximus",
-                    Age = 30,
-                    Alive = true,
+                    KnightName = "Aeltor",
+                    Age = 22,
+                    Victories = 0,
+                    Defeats = 5,
+                    Banner = "", // URL banner
+                    Weapons = "Wood stick",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Quilted weave",
+                    ArmorsIcons = "", // URL armorIcons
                     Mount = false,
-                    Region = "Rome",
-                    Moto = "Force et honneur.",
-                    Victories = 25,
-                    Defeats = 2,
-                    Weapons = "sword , sword",
-                    Armors = "chestplate",
-                    Pigeon = "VillaPoggioManzuoli@pigeon.com",
-                    Ranking = 2,
-                    Avatar = "https://images.uesp.net/c/c7/BL-icon-avatar-Variant_Breton_Male.png",
-
-                };
-                Knight knight5 = new Knight()
-                {
-                    KnightName = "Guillaume",
-                    Age = 28,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "these last words are 'stop it!'",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
                     Alive = false,
-                    Mount = false,
-                    Region = "Mésopotamie",
-                    Moto = "I have an army",
-                    Victories = 100,
-                    Weapons = "More humans",
-                    Armors = "Big walls",
-                    Ranking = 5,
-                    Pigeon = "Angleterre@pigeon.com",
-                    Avatar = "https://images.uesp.net/0/05/BL-icon-avatar-Steel_Armor.png",
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 25,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
 
                 };
-                context.AddRange(tournament1, tournament2, tournament3, tournament4, knight1, knight2, knight3, knight4, knight5);
-                context.SaveChanges();
+                Knight knight5= new Knight()
+                {
+                    KnightName = "Creddred",
+                    Age = 28,
+                    Victories = 31,
+                    Defeats = 0,
+                    Banner = "", // URL banner
+                    Weapons = "Two handed sword",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Plate armor",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = true,
+                    MountType = "Griffon",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "Ragnar",
+                    Moto = "Cool, you are food for my pet",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 1,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
 
+                };
+                Knight knight6 = new Knight()
+                {
+                    KnightName = "Daganho",
+                    Age = 23,
+                    Victories = 0,
+                    Defeats = 0,
+                    Banner = "", // URL banner
+                    Weapons = "Dague",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Quilted weave",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "Tzi shu force is with me",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 20,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight7 = new Knight()
+                {
+                    KnightName = "Ethward",
+                    Age = 29,
+                    Victories = 15,
+                    Defeats = 8,
+                    Banner = "", // URL banner
+                    Weapons = "Bow",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Quilted Weave",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "My arrows are faster than your weapons",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 9,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight8 = new Knight()
+                {
+                    KnightName = "Holdjamy",
+                    Age = 34,
+                    Victories = 25,
+                    Defeats = 4,
+                    Banner = "", // URL banner
+                    Weapons = "Hammer",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Vikings armor",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = true,
+                    MountType = "Wolf",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "Canis",
+                    Moto = "I have thor's hammer!",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 2,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight9 = new Knight()
+                {
+                    KnightName = "Jasmor",
+                    Age = 31,
+                    Victories = 8,
+                    Defeats = 6,
+                    Banner = "", // URL banner
+                    Weapons = "Scourge",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Scale armor",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = true,
+                    MountType = "Pagasus",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "Pegasus",
+                    Moto = "My animal is still in the air",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 11,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight10 = new Knight()
+                {
+                    KnightName = "Leodagan",
+                    Age = 25,
+                    Victories = 15,
+                    Defeats = 4,
+                    Banner = "", // URL banner
+                    Weapons = "Axe",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Plate armor",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = true,
+                    MountType = "Hippogriff",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "Buck",
+                    Moto = "Comme and measure yourself against me",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 5,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight11 = new Knight()
+                {
+                    KnightName = "Lotaut",
+                    Age = 25,
+                    Victories = 6,
+                    Defeats = 4,
+                    Banner = "", // URL banner
+                    Weapons = "Dagger",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Quited weave",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = true,
+                    MountType = "Boar",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "Grouik",
+                    Moto = "My pet isn't fodd",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 15,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight12 = new Knight()
+                {
+                    KnightName = "Nulfar",
+                    Age = 29,
+                    Victories = 1,
+                    Defeats = 8,
+                    Banner = "", // URL banner
+                    Weapons = "Sword",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Harness",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "I will be the best !",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = false,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 24,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight13 = new Knight()
+                {
+                    KnightName = "Percyward",
+                    Age = 28,
+                    Victories = 2,
+                    Defeats = 4,
+                    Banner = "", // URL banner
+                    Weapons = "Sword",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Harness",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "I will be the best !",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = false,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 23,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight14 = new Knight()
+                {
+                    KnightName = "Agaaut",
+                    Age = 28,
+                    Victories = 19,
+                    Defeats = 8,
+                    Banner = "", // URL banner
+                    Weapons = "Hallebarde",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Plate armor",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "Drop to my halberd",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 6,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight15 = new Knight()
+                {
+                    KnightName = "Bojas",
+                    Age = 18,
+                    Victories = 4,
+                    Defeats = 4,
+                    Banner = "", // URL banner
+                    Weapons = "Spear",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Breastplate",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "Drop to my halberd",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 17,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight16 = new Knight()
+                {
+                    KnightName = "Jeain",
+                    Age = 27,
+                    Victories = 17,
+                    Defeats = 9,
+                    Banner = "", // URL banner
+                    Weapons = "Mace",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Chainmail",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = true,
+                    MountType = "Unicorn",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "Pony",
+                    Moto = "Do you know the realy death ?",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 7,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight17 = new Knight()
+                {
+                    KnightName = "Nardarnold",
+                    Age = 27,
+                    Victories = 5,
+                    Defeats = 4,
+                    Banner = "", // URL banner
+                    Weapons = "Scourge",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Scale Armor",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "Could you be nice to me ?",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 18,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight18 = new Knight()
+                {
+                    KnightName = "Tuslot",
+                    Age = 27,
+                    Victories = 0,
+                    Defeats = 1,
+                    Banner = "", // URL banner
+                    Weapons = "Dagger",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Quilted weave",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "Let's go",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = false,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 22,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight19 = new Knight()
+                {
+                    KnightName = "Valeranos",
+                    Age = 27,
+                    Victories = 9,
+                    Defeats = 4,
+                    Banner = "", // URL banner
+                    Weapons = "Scourge",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Plate Armor",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = true,
+                    MountType = "Camel",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "Case",
+                    Moto = "Say your prayer",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 8,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight20 = new Knight()
+                {
+                    KnightName = "Reindric",
+                    Age = 44,
+                    Victories = 37,
+                    Defeats = 25,
+                    Banner = "", // URL banner
+                    Weapons = "Sword",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Plate Armor",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "There was a time when i was first",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 10,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight21 = new Knight()
+                {
+                    KnightName = "Rollrein",
+                    Age = 21,
+                    Victories = 3,
+                    Defeats = 1,
+                    Banner = "", // URL banner
+                    Weapons = "Mace",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Chainmail",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "I have the courage to face the greatest",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 19,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight22 = new Knight()
+                {
+                    KnightName = "Tanje",
+                    Age = 24,
+                    Victories = 7,
+                    Defeats = 3,
+                    Banner = "", // URL banner
+                    Weapons = "Sword",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Breastplate",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 16,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight23 = new Knight()
+                {
+                    KnightName = "Telperce",
+                    Age = 28,
+                    Victories = 14,
+                    Defeats = 8,
+                    Banner = "", // URL banner
+                    Weapons = "Spear",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Harness",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 12,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight24 = new Knight()
+                {
+                    KnightName = "Thurward",
+                    Age = 36,
+                    Victories = 14,
+                    Defeats = 11,
+                    Banner = "", // URL banner
+                    Weapons = "Axe",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Scale Armor",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = true,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 13,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
+                Knight knight25 = new Knight()
+                {
+                    KnightName = "Vallande",
+                    Age = 26,
+                    Victories = 18,
+                    Defeats = 9,
+                    Banner = "", // URL banner
+                    Weapons = "Dagger",
+                    WeaponsIcons = "", // URL weaponsIcons
+                    Armors = "Quilted Weave",
+                    ArmorsIcons = "", // URL armorIcons
+                    Mount = false,
+                    MountType = "",
+                    MountTypeIcons = "", // URL typeIcons
+                    MountName = "",
+                    Moto = "",
+                    Avatar = "", // URL avatar
+                    Region = "",
+                    Pigeon = "@pigeon.com", //adress mail
+                    PigeonIcons = "", // URL PigeonIcons
+                    Alive = false,
+                    AliveIcons = "", // URL AliveIcons
+                    Ranking = 14,
+                    RankingIcons = "", // URL RankingIcons
+                    SuccessIcons = "" // URL SuccessIcons
+
+                };
             }
         }
     }

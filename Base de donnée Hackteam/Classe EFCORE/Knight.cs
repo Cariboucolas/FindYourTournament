@@ -12,7 +12,7 @@ namespace Base_de_donnée_Hackteam
 		public int Victories { get; set; } // nb de vitoires
 
 		public int Defeats { get; set; }  // nb de defaites
-		public string Badge { get; set; } // URL de son badge
+		public string Banner { get; set; } // URL de son badge
 		public string Weapons { get; set; }
 		public string Armors { get; set; }
 		public bool Mount { get; set; }
