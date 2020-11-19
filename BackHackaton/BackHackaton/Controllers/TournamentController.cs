@@ -9,9 +9,9 @@ namespace BackHackaton.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class TournamentController : ControllerBase
+    public class FYTController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet("tournament")]
         public List<Tournaments> GetAllTournaments()
         {
 
@@ -22,7 +22,6 @@ namespace BackHackaton.Controllers
         [HttpGet("knight")]
         public List<Knight> GetAllKnights()
         {
-            List<Knight> listOfKnight = new List<Knight>();
             return DataAbstractionLayer.SelectAllKnights();
         }
     }

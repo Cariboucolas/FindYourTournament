@@ -55,7 +55,7 @@ namespace BackHackaton
                     Prize = reader.GetInt32(4),
                     TournamentLocation = reader.GetString(5),
                     TournamentType = reader.GetString(6),
-                    Descrpition = reader.GetString(7),
+                    Description = reader.GetString(7),
                     Participants = reader.GetInt32(8),
                     Champion = reader.GetString(9),
                     Images = reader.GetString(10),
@@ -73,26 +73,26 @@ namespace BackHackaton
             public static List<Knight> SelectAllKnights()
             {
                 SqlCommand command = _connection.CreateCommand();
-                command.CommandText = "SELECT " +
-                                                                                "KnightId, " +
-                                                                                "KnightName," +
-                                                                                "Age," +
-                                                                                "ISNULL(Victories, '')," +
-                                                                                "ISNULL(Defeats,'')," +
-                                                                                "Badge," +
-                                                                                "ISNULL(Weapons,''),"+
-                                                                                "ISNULL(Armor,'')," +
-                                                                                "ISNULL(Mount,'')," +
-                                                                                "ISNULL(MountType,''),"+
-                                                                                "ISNULL(MountName,''),"+
-                                                                                "ISNULL(Moto,''),"+
-                                                                                "ISNULL(Avatar,''),"+
-                                                                                "ISNULL(Region,''),"+
-                                                                                 "ISNULL(Pigeon,''),"+
-                                                                                  "Alive,"+
-                                                                                  "Ranking,"+
-                                                                                    "FROM Knight" +
-                                                                                    "ORDER BY Ranking";
+            command.CommandText = "SELECT " +
+                                                                            "KnightId, " +
+                                                                            "ISNULL(KnightName,'')," +
+                                                                            "ISNULL(Age,'')," +
+                                                                            "ISNULL(Victories, '')," +
+                                                                            "ISNULL(Defeats,'')," +
+                                                                            "ISNULL(Badge,'')," +
+                                                                            "ISNULL(Weapons,'')," +
+                                                                            "ISNULL(Armors,'')," +
+                                                                            "ISNULL(Mount,'')," +
+                                                                            "ISNULL(MountType,'')," +
+                                                                            "ISNULL(MountName,'')," +
+                                                                            "ISNULL(Moto,'')," +
+                                                                            "ISNULL(Avatar,'')," +
+                                                                            "ISNULL(Region,'')," +
+                                                                             "ISNULL(Pigeon,'')," +
+                                                                              "ISNULL(Alive,1)," +
+                                                                              "ISNULL(Ranking,'')" +
+                                                                                "FROM Knight " +
+                                                                                "ORDER BY Ranking";
 
                 SqlDataReader reader = command.ExecuteReader();
                 List<Knight> knights = new List<Knight>();

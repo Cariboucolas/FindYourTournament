@@ -11,7 +11,7 @@ namespace BackHackaton.Controllers
         public int Prize { get; set; }
         public string TournamentLocation { get; set; }
         public string TournamentType { get; set; }
-        public string Descrpition { get; set; }
+        public string Description { get; set; }
         public int Participants { get; set; }
         public string Champion { get; set; }
         public string Images { get; set; }

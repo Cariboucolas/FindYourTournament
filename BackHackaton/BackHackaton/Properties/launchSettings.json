@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "tournament",
+      "launchUrl": "FYT/tournament",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "BackHackaton": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "tournament",
+      "launchUrl": "FYT/tournament",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
