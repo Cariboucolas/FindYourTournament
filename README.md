@@ -1,3 +1,15 @@
+# Hack Team
+
+## Team members:
+* Lisa Lou 
+* Emilie DelSol
+* Colas DURCY
+* Rooarii MANUEL
+
+GO, GO, GO CODE !!!!!!
+
+![Alt Text](https://media.giphy.com/media/WryW3XfviTS1QvrQsK/giphy.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
