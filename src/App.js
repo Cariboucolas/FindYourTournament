@@ -31,8 +31,6 @@ function App() {
           }}
          />
         <Switch>
-          <Route path="/">
-          </Route>
           <Route path="/tournaments">
             <SearchTournament />
           </Route>
