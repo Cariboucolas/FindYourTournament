@@ -1,8 +1,8 @@
 # Hack Team
 
 ## Team members:
-* Lisa Lou 
-* Emilie DelSol
+* Lisa Lou KARA
+* Emilie DELSOL
 * Herve MESTE
 * Colas DURCY
 * Rooarii MANUEL
