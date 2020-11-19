@@ -1,0 +1,40 @@
+[
+    {
+        "id": ,
+        "name": name,
+        "date": string ,
+        "price": string ,
+        "prize": string,
+        "location": string ,
+        "type": "" ,
+        "participants": number,
+        "champion": string,
+        "image": url,
+        "video": url 
+
+    },
+
+]
+Profiles
+[
+    {
+        "id": ,
+        "userName": string,
+        "age": number ,
+        "victories": number,
+        "defeats": number ,
+        "badge": url ,
+        "gear": ["sword", "axe", "armor"],
+        "mount": true,
+        "mountType": string ,
+        "mountName": string,
+        "moto": "Que trépasse si je faiblis !",
+        "avatar": url ,
+        "region": ,
+        "pigeon": @pigeon.com,
+        "alive": true,
+        "ranking": ,
+
+    },
+
+]
