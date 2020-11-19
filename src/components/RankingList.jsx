@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import "./RankingList.css";
+import "../styles/RankingList.css";
 import RankingCard from './RankingCard';
 
 const knightsArr = [

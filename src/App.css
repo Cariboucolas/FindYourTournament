@@ -2,7 +2,6 @@
   text-align: center;
 }
 
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,17 +11,22 @@ main {
   min-height: 100vh;
 }
 
-a{
+a {
   text-decoration: none;
   cursor: auto;
   color: white;
   font-family: 'Sofadi One', cursive;
 }
 
-.home-logo{
+.home-logo {
   font-family: 'Sofadi One', cursive;
   font-size: 6rem;
   margin: 1%;
+}
+
+.bm-item .menu-item {
+  padding: 12px;
+  font-size: 1.8em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
