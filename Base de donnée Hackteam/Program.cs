@@ -102,7 +102,7 @@ namespace Base_de_donnée_Hackteam
                     Armors = "pants",
                     Ranking = 1,
                     Pigeon = "sparte@pigeon.com",
-                    Avatar = "https://heros.fandom.com/fr/wiki/L%C3%A9onidas_(300)?file=L%C3%A9onidas_300_Infobox.jpg",
+                    Avatar = "",
 
 
                 };
@@ -119,7 +119,6 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "sword , sword",
                     Armors = "chestplate",
                     Pigeon = "VillaPoggioManzuoli@pigeon.com",
-                    Avatar = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.telestar.fr%2Fculture%2Fgladiator-tf1-le-film-est-il-conforme-a-la-realite-historique-photos-252850&psig=AOvVaw3vWzqjoiR3TCIj8GZ2xUO-&ust=1605893582925000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIj0m_qRj-0CFQAAAAAdAAAAABAD",
                     Ranking = 2,
 
                 };
@@ -138,7 +137,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "Angleterre@pigeon.com"
 
                 };
-                context.AddRange(tournament1, knight1);
+                context.AddRange(tournament1, tournament2, tournament3, tournament4, knight1, knight2, knight3, knight4, knight5);
                 context.SaveChanges();
 
             }
