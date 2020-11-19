@@ -18,10 +18,9 @@ namespace BackHackaton
             stringBuilder.InitialCatalog = "HackTeam";
             stringBuilder.DataSource = @"LOCALHOST\SQLEXPRESS";
             stringBuilder.IntegratedSecurity = true;
-            DataAbstractionLayer dataAbstraction = new DataAbstractionLayer();
-            dataAbstraction.Open(stringBuilder);
+            DataAbstractionLayer.Open(stringBuilder);
             CreateHostBuilder(args).Build().Run();
-            dataAbstraction.Close();
+            DataAbstractionLayer.Close();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace BackHackaton
 {
-    public class DataAbstractionLayer
+    public static class DataAbstractionLayer
     {
-        private SqlConnection _connection = new SqlConnection();
-        public void Open(SqlConnectionStringBuilder stringBuilder)
+        private static SqlConnection _connection = new SqlConnection();
+        public static void Open(SqlConnectionStringBuilder stringBuilder)
         {
             _connection.ConnectionString = stringBuilder.ConnectionString;
             if (_connection.State == System.Data.ConnectionState.Closed)
@@ -18,12 +18,12 @@ namespace BackHackaton
                 _connection.Open();
             }
         }
-        public SqlConnection GetConnection()
+        public static SqlConnection GetConnection()
         {
             return _connection;
         }
 
-        public List<Tournaments> SelectAllTournaments()
+        public static List<Tournaments> SelectAllTournaments()
         {
             SqlCommand command = _connection.CreateCommand();
             command.CommandText = "SELECT " +
@@ -39,7 +39,7 @@ namespace BackHackaton
                                                                             "ISNULL(Champion, '')," +
                                                                             "Images," +
                                                                             "Videos" +
-                                                                                "FROM Tournament"+
+                                                                                "FROM Tournament" +
                                                                                 "ORDER BY TournamentDate";
 
             SqlDataReader reader = command.ExecuteReader();
@@ -59,64 +59,76 @@ namespace BackHackaton
                     Participants = reader.GetInt32(8),
                     Champion = reader.GetString(9),
                     Images = reader.GetString(10),
-                    Videos=reader.GetString(11)
+                    Videos = reader.GetString(11)
                 };
 
                 tournaments.Add(tournament);
             }
 
+            reader.Close();
+            return tournaments;
+        }
 
 
-
-            public List<Knight> SelectAllKnghts()
+            public static List<Knight> SelectAllKnights()
             {
                 SqlCommand command = _connection.CreateCommand();
                 command.CommandText = "SELECT " +
-                                                                                "TournamentId, " +
-                                                                                "TournamentName," +
-                                                                                "TournamentDate," +
-                                                                                "Price," +
-                                                                                "Prize," +
-                                                                                "TournamentLocation," +
-                                                                                "ISNULL(TournamentType, '')," +
-                                                                                "Description" +
-                                                                                "Participants" +
-                                                                                "ISNULL(Champion, '')," +
-                                                                                "Images," +
-                                                                                "Videos" +
-                                                                                    "FROM Tournament" +
-                                                                                    "ORDER BY TournamentDate";
+                                                                                "KnightId, " +
+                                                                                "KnightName," +
+                                                                                "Age," +
+                                                                                "ISNULL(Victories, '')," +
+                                                                                "ISNULL(Defeats,'')," +
+                                                                                "Badge," +
+                                                                                "ISNULL(Weapons,''),"+
+                                                                                "ISNULL(Armor,'')," +
+                                                                                "ISNULL(Mount,'')," +
+                                                                                "ISNULL(MountType,''),"+
+                                                                                "ISNULL(MountName,''),"+
+                                                                                "ISNULL(Moto,''),"+
+                                                                                "ISNULL(Avatar,''),"+
+                                                                                "ISNULL(Region,''),"+
+                                                                                 "ISNULL(Pigeon,''),"+
+                                                                                  "Alive,"+
+                                                                                  "Ranking,"+
+                                                                                    "FROM Knight" +
+                                                                                    "ORDER BY Ranking";
 
                 SqlDataReader reader = command.ExecuteReader();
-                List<Tournaments> tournaments = new List<Tournaments>();
+                List<Knight> knights = new List<Knight>();
                 while (reader.Read())
                 {
-                    Tournaments tournament = new Tournaments
+                    Knight knight= new Knight
                     {
-                        TournamentId = reader.GetInt32(0),
-                        TournamentName = reader.GetString(1),
-                        TournamentDate = reader.GetDateTime(2),
-                        Price = reader.GetInt32(3),
-                        Prize = reader.GetInt32(4),
-                        TournamentLocation = reader.GetString(5),
-                        TournamentType = reader.GetString(6),
-                        Descrpition = reader.GetString(7),
-                        Participants = reader.GetInt32(8),
-                        Champion = reader.GetString(9),
-                        Images = reader.GetString(10),
-                        Videos = reader.GetString(11)
+                        KnightId=reader.GetInt32(0),
+                        KnightName=reader.GetString(1),
+                        Age=reader.GetInt32(2),
+                        Victories=reader.GetInt32(3),
+                        Defeats=reader.GetInt32(4),
+                        Badge=reader.GetString(5),
+                        Weapons=reader.GetString(6),
+                        Armors=reader.GetString(7),
+                        Mount=reader.GetBoolean(8),
+                        MountType=reader.GetString(9),
+                        MountName=reader.GetString(10),
+                        Moto=reader.GetString(11),
+                        Avatar=reader.GetString(12),
+                        Region=reader.GetString(13),
+                        Pigeon=reader.GetString(14),
+                        Alive=reader.GetBoolean(15),
+                        Ranking=reader.GetInt32(16)
                     };
 
-                    tournaments.Add(tournament);
+                    knights.Add(knight);
                 }
                 reader.Close();
-            return tournaments;
+            return knights;
         }
 
 
 
 
-        public  void Close()
+        public static  void Close()
         {
             if (_connection.State == System.Data.ConnectionState.Open)
             {
@@ -124,4 +136,6 @@ namespace BackHackaton
             }
         }
     }
-}
+
+    
+    }

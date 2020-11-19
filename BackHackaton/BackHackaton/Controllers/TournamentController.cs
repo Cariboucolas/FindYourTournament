@@ -7,17 +7,23 @@ using System.Threading.Tasks;
 
 namespace BackHackaton.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class TournamentController : ControllerBase
     {
-        DataAbstractionLayer dataAbstraction = new DataAbstractionLayer();
         [HttpGet]
         public List<Tournaments> GetAllTournaments()
         {
 
-            return dataAbstraction.SelectAllTournaments();
+            return DataAbstractionLayer.SelectAllTournaments();
 
+        }
+
+        [HttpGet("knight")]
+        public List<Knight> GetAllKnights()
+        {
+            List<Knight> listOfKnight = new List<Knight>();
+            return DataAbstractionLayer.SelectAllKnights();
         }
     }
 }
