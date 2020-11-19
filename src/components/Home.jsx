@@ -9,7 +9,6 @@ function Home() {
   return (
     <>
       <h1 className="home">FYT</h1>
-      
         <div class="content">
           <p>Fight to the Death</p>
         </div>

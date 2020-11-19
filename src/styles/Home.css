@@ -21,6 +21,7 @@
   }
   .content {
     position: relative;
+    z-index: 100;
     top: 50px;
     height: 10%;
     width: 100%;
@@ -40,7 +41,6 @@
     filter: invert(26%) sepia(34%) saturate(6785%) hue-rotate(331deg) brightness(85%) contrast(110%);
     bottom: 0;
     right: 5%;
-    z-index: 700;
     -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
     -webkit-animation-duration: .3s;
