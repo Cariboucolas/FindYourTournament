@@ -1,13 +1,14 @@
-[
+[Tournaments
     {
         "id": ,
         "name": name,
         "date": string ,
-        "price": string ,
-        "prize": string,
-        "location": string ,
+        "price": int ,
+        "prize": int,
+      "location": string,
+      "description": string
         "type": "" ,
-        "participants": number,
+        "participants": int,
         "champion": string,
         "image": url,
         "video": url 
@@ -15,7 +16,7 @@
     },
 
 ]
-Profiles
+Knights
 [
     {
         "id": ,
