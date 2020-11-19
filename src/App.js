@@ -26,8 +26,7 @@ function App() {
           Profile
         </Link>
         <Switch>
-        <Route path="/">
-          </Route>
+  
           <Route path="/tournaments">
             <SearchTournament />
           </Route>
