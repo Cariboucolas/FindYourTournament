@@ -736,9 +736,11 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "", // URL AliveIcons
                     Ranking = 14,
                     RankingIcons = "", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
-
+                    SuccessIcons = "", // URL SuccessIcons
                 };
+                context.AddRange(knight1, knight2, knight3, knight4, knight5, knight6, knight7, knight8, knight9, knight10, knight11, knight12, knight13,
+                    knight14, knight15, knight16, knight17, knight18, knight19, knight20, knight21, knight22, knight23, knight24, knight25);
+                context.SaveChanges();
             }
         }
     }
