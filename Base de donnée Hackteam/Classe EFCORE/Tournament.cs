@@ -15,6 +15,6 @@ namespace Base_de_donnée_Hackteam
 		public int Participants { get; set; } // NB de participants
 		public string Champion { get; set; } // Champion en titre
 		public string Images { get; set; } //URL image
-		public string videos { get; set; } // URL  video
+		public string Videos { get; set; } // URL  video
 	}
 }
