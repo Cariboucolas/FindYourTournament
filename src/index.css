@@ -1,14 +1,9 @@
 body {
   margin: 0;
-  font-family: 'Sofadi One', cursive;
-  background: #2E2E2E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Nanum Brush Script', cursive;
+  background: black;
   color: white;
   scrollbar-color: rgb(170, 15, 15) rgb(189, 177, 177);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+

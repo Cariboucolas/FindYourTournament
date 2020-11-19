@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,8 +43,3 @@ a{
   color: white;
 }
 
-h1{
-  font-family: 'Sofadi One', cursive;
-  font-size: 6.5vw;
-  margin: 1%;
-}
