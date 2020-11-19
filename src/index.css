@@ -3,7 +3,7 @@ body {
   font-family: 'Nanum Brush Script', cursive;
   background: black;
   color: white;
-  scrollbar-color: rgb(170, 15, 15) rgb(189, 177, 177);
+  overflow: hidden;
 }
 
 

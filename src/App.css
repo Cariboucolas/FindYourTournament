@@ -2,9 +2,27 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+main {
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  cursor: auto;
+  color: white;
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+.home-logo {
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 6rem;
+  margin: 1%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,6 +40,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Nanum Brush Script', cursive;
 }
 
 .App-link {
