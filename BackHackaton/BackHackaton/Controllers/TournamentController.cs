@@ -24,5 +24,17 @@ namespace BackHackaton.Controllers
         {
             return DataAbstractionLayer.SelectAllKnights();
         }
+
+        [HttpGet("knight/alive")]
+        public List<Knight> GetAliveKnights()
+        {
+            return DataAbstractionLayer.SelectAliveKnights();
+        }
+
+        [HttpGet("knight/haveAMount")]
+        public List<Knight> GetKnightsHaveAMount()
+        {
+            return DataAbstractionLayer.SelectKnightsHaveAMount();
+        }
     }
 }

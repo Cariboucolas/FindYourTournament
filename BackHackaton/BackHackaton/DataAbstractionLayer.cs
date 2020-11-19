@@ -123,6 +123,115 @@ namespace BackHackaton
                 }
                 reader.Close();
             return knights;
+            }
+            public static List<Knight> SelectAliveKnights()
+            {
+                SqlCommand command = _connection.CreateCommand();
+                command.CommandText = "SELECT " +
+                                                                                "KnightId, " +
+                                                                                "ISNULL(KnightName,'')," +
+                                                                                "ISNULL(Age,'')," +
+                                                                                "ISNULL(Victories, '')," +
+                                                                                "ISNULL(Defeats,'')," +
+                                                                                "ISNULL(Badge,'')," +
+                                                                                "ISNULL(Weapons,'')," +
+                                                                                "ISNULL(Armors,'')," +
+                                                                                "ISNULL(Mount,'')," +
+                                                                                "ISNULL(MountType,'')," +
+                                                                                "ISNULL(MountName,'')," +
+                                                                                "ISNULL(Moto,'')," +
+                                                                                "ISNULL(Avatar,'')," +
+                                                                                "ISNULL(Region,'')," +
+                                                                                 "ISNULL(Pigeon,'')," +
+                                                                                  "ISNULL(Alive,1)," +
+                                                                                  "ISNULL(Ranking,'')" +
+                                                                                    "FROM Knight WHERE Alive=1 " +
+                                                                                    "ORDER BY Ranking";
+
+                SqlDataReader reader = command.ExecuteReader();
+                List<Knight> knights = new List<Knight>();
+                while (reader.Read())
+                {
+                    Knight knight = new Knight
+                    {
+                        KnightId = reader.GetInt32(0),
+                        KnightName = reader.GetString(1),
+                        Age = reader.GetInt32(2),
+                        Victories = reader.GetInt32(3),
+                        Defeats = reader.GetInt32(4),
+                        Badge = reader.GetString(5),
+                        Weapons = reader.GetString(6),
+                        Armors = reader.GetString(7),
+                        Mount = reader.GetBoolean(8),
+                        MountType = reader.GetString(9),
+                        MountName = reader.GetString(10),
+                        Moto = reader.GetString(11),
+                        Avatar = reader.GetString(12),
+                        Region = reader.GetString(13),
+                        Pigeon = reader.GetString(14),
+                        Alive = reader.GetBoolean(15),
+                        Ranking = reader.GetInt32(16)
+                    };
+
+                    knights.Add(knight);
+                }
+                reader.Close();
+                return knights;
+            }
+
+        public static List<Knight> SelectKnightsHaveAMount()
+        {
+            SqlCommand command = _connection.CreateCommand();
+            command.CommandText = "SELECT " +
+                                                                            "KnightId, " +
+                                                                            "ISNULL(KnightName,'')," +
+                                                                            "ISNULL(Age,'')," +
+                                                                            "ISNULL(Victories, '')," +
+                                                                            "ISNULL(Defeats,'')," +
+                                                                            "ISNULL(Badge,'')," +
+                                                                            "ISNULL(Weapons,'')," +
+                                                                            "ISNULL(Armors,'')," +
+                                                                            "ISNULL(Mount,0)," +
+                                                                            "ISNULL(MountType,'')," +
+                                                                            "ISNULL(MountName,'')," +
+                                                                            "ISNULL(Moto,'')," +
+                                                                            "ISNULL(Avatar,'')," +
+                                                                            "ISNULL(Region,'')," +
+                                                                             "ISNULL(Pigeon,'')," +
+                                                                              "ISNULL(Alive,1)," +
+                                                                              "ISNULL(Ranking,'')" +
+                                                                                "FROM Knight WHERE Mount=1 " +
+                                                                                "ORDER BY Ranking";
+
+            SqlDataReader reader = command.ExecuteReader();
+            List<Knight> knights = new List<Knight>();
+            while (reader.Read())
+            {
+                Knight knight = new Knight
+                {
+                    KnightId = reader.GetInt32(0),
+                    KnightName = reader.GetString(1),
+                    Age = reader.GetInt32(2),
+                    Victories = reader.GetInt32(3),
+                    Defeats = reader.GetInt32(4),
+                    Badge = reader.GetString(5),
+                    Weapons = reader.GetString(6),
+                    Armors = reader.GetString(7),
+                    Mount = reader.GetBoolean(8),
+                    MountType = reader.GetString(9),
+                    MountName = reader.GetString(10),
+                    Moto = reader.GetString(11),
+                    Avatar = reader.GetString(12),
+                    Region = reader.GetString(13),
+                    Pigeon = reader.GetString(14),
+                    Alive = reader.GetBoolean(15),
+                    Ranking = reader.GetInt32(16)
+                };
+
+                knights.Add(knight);
+            }
+            reader.Close();
+            return knights;
         }
 
 
