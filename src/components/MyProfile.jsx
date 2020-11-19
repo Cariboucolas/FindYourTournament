@@ -1,5 +1,5 @@
 import React from 'react';
-import "./MyProfile.css"
+import "../styles/MyProfile.css"
 
 const knightInfo = [
   {

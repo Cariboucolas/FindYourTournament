@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./RankingCard.css";
+import "../styles/RankingCard.css";
 
 function RankingCard({ knight }) {
 

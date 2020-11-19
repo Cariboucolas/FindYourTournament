@@ -64,3 +64,8 @@
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
   }
+
+  .menu-item {
+    padding: 12px;
+    font-size: 1.8em
+  }
