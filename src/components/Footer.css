@@ -1,5 +1,4 @@
 .footer {
-  background-color: #2E2E2E;
   font-family: "Lato", sans-serif;
   padding: 85px 0 285px 0;
   min-height: 100vh;
@@ -114,6 +113,10 @@ p {
   padding: 0;
   line-height: 1.8;
   letter-spacing: 0.03em;
+  text-align: left;
+  margin-left: 2%;
+  font-size: 10vh;
+  margin-top: 40vh;
 }
 
 a {
