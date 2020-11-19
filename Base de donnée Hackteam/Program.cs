@@ -19,7 +19,7 @@ namespace Base_de_donnée_Hackteam
                     Price = 2,
                     Prize = 100,
                     TournamentLocation = "Chateau de Versailles",
-                    Descripition = "Viens de friter contre ton rival",
+                    Description = "Viens de friter contre ton rival",
                     TournamentType = "Au sol",
                     Participants = 25,               
                 };
@@ -30,7 +30,7 @@ namespace Base_de_donnée_Hackteam
                     Price = 5,
                     Prize = 200,
                     TournamentLocation = "Chateau de Colas",
-                    Descripition = "Viens labourer la pelouse",
+                    Description = "Viens labourer la pelouse",
                     TournamentType = "Cheval",
                     Participants = 10,
                 };
@@ -41,7 +41,7 @@ namespace Base_de_donnée_Hackteam
                     Price = 0 ,
                     Prize = 50,
                     TournamentLocation = "Chateau d'eau",
-                    Descripition = "Initiation",
+                    Description = "Initiation",
                     TournamentType = "Au sol",
                     Participants = 100,
                 };
@@ -52,7 +52,7 @@ namespace Base_de_donnée_Hackteam
                     Price = 100,
                     Prize = 2500,
                     TournamentLocation = "Le château de Fontainebleau.",
-                    Descripition = "Affronte les plus grands adversaire du moment !",
+                    Description = "Affronte les plus grands adversaire du moment !",
                     TournamentType = "Au sol",
                     Participants = 10,
                 };
@@ -135,6 +135,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "More humans",
                     Armors = "Big walls",
                     Ranking = 5,
+                    Avatar = "https://lh3.googleusercontent.com/proxy/RIEz3BIs-yLaZPRYHIr51L6lWRmnLm6F1VD1vlFCHW6R9fr7St90f72gYIu86dEomMmlfZJHs2ETUDD4ofxGTI7N_HV0WWkzsU-t3f4qsI2pRsSLHA",
                     Pigeon = "Angleterre@pigeon.com"
 
                 };
