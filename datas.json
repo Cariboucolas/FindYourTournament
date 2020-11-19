@@ -1,17 +1,17 @@
 [Tournaments
     {
-        "id": ,
-        "name": name,
-        "date": string ,
-        "price": int ,
-        "prize": int,
-      "location": string,
-      "description": string
-        "type": "" ,
-        "participants": int,
-        "champion": string,
-        "image": url,
-        "video": url 
+        "TournamentId":1 ,
+        "TournamentName": "my name",
+        "TounamentDate": "" ,
+        "Price": 10,
+        "Prize": 1400,
+      "TournamentLocation": "string",
+      "TournamentType": "string",
+      "Description": "string",
+        "Participants": 250,
+        "Champion": "string",
+        "Image": "url",
+        "Video": "url" 
 
     },
 
@@ -19,22 +19,23 @@
 Knights
 [
     {
-        "id": ,
-        "userName": string,
-        "age": number ,
-        "victories": number,
-        "defeats": number ,
-        "badge": url ,
-        "gear": ["sword", "axe", "armor"],
-        "mount": true,
-        "mountType": string ,
-        "mountName": string,
-        "moto": "Que trépasse si je faiblis !",
-        "avatar": url ,
-        "region": ,
-        "pigeon": @pigeon.com,
-        "alive": true,
-        "ranking": ,
+        "Knightd": 1,
+        "KnightName": "nom",
+        "Age":30 ,
+        "Victories": 3,
+        "Defeats": 1 ,
+        "Badge": url ,
+      "Weapons": "sword, axe, armor",
+      "Armors": "Plate armor,
+        "Mount": true,
+        "MountType": "horse" ,
+        "MountName": "tornado",
+        "Moto": "Que trépasse si je faiblis !",
+        "Avatar": "url de l'image" ,
+        "Region":"name of region" ,
+        "Pigeon": "@pigeon.com",
+        "Alive": true,
+        "Ranking":10 ,
 
     },
 
