@@ -7,6 +7,7 @@ import './App.css';
 import SearchTournament from './components/SearchTournament';
 import Profile from './components/Profile';
 import RankingList from './components/RankingList'
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
           </Route>
         </Switch>
       </Router>
+
+      <Footer />
     </div>
   );
 }
