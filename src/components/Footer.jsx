@@ -5,9 +5,9 @@ const FooterPage = () => {
   return (
     <div className="footer">
       <div className="footer-item">
-        <h1>LOGO</h1>
+        <h1>FYT</h1>
 
-        <h2>We create possibilities </h2>
+        <h2>Find your tournament </h2>
     </div>
 
           <section className="footer-item">
