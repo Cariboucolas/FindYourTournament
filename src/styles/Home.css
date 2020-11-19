@@ -1,0 +1,91 @@
+.home{
+    font-size: 10vh;
+    margin-top: 1.5vh;
+}
+.circle {
+    /* display:none; */
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    z-index: 800;
+    background: #E21549;
+    border-radius: 50%;
+    height: 20vh;
+    width: 20vh;
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1.10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  .content {
+    position: relative;
+    top: 50px;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1.0s;
+    animation-duration: 1.0s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.5s;
+  }
+  .splatter {
+    position: absolute;
+    height: 95vh;
+    filter: invert(26%) sepia(34%) saturate(6785%) hue-rotate(331deg) brightness(85%) contrast(110%);
+    bottom: 0;
+    right: 5%;
+    z-index: 700;
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both; 
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s; 
+  }
+  
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  @-webkit-keyframes zoomIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+              transform: scale3d(.3, .3, .3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoomIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+              transform: scale3d(.3, .3, .3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .zoomIn {
+    -webkit-animation-name: zoomIn;
+            animation-name: zoomIn;
+  }
