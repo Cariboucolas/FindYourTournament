@@ -19,7 +19,7 @@ namespace Base_de_donnée_Hackteam
                     Price = 2,
                     Prize = 100,
                     TournamentLocation = "Chateau de Versailles",
-                    Descrpition = "Viens de friter contre ton rival",
+                    Description = "Viens de friter contre ton rival",
                     TournamentType = "Au sol",
                     Participants = 25,               
                 };

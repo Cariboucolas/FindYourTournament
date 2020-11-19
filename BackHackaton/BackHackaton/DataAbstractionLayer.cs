@@ -28,18 +28,18 @@ namespace BackHackaton
             SqlCommand command = _connection.CreateCommand();
             command.CommandText = "SELECT " +
                                                                             "TournamentId, " +
-                                                                            "TournamentName," +
-                                                                            "TournamentDate," +
-                                                                            "Price," +
-                                                                            "Prize," +
-                                                                            "TournamentLocation," +
+                                                                            "ISNULL(TournamentName,'')," +
+                                                                            "ISNULL(TournamentDate,'')," +
+                                                                            "ISNULL(Price,'')," +
+                                                                            "ISNULL(Prize,'')," +
+                                                                            "ISNULL(TournamentLocation,'')," +
                                                                             "ISNULL(TournamentType, '')," +
-                                                                            "Description" +
-                                                                            "Participants" +
+                                                                            "ISNULL(Description,'')," +
+                                                                            "ISNULL(Participants,'')," +
                                                                             "ISNULL(Champion, '')," +
-                                                                            "Images," +
-                                                                            "Videos" +
-                                                                                "FROM Tournament" +
+                                                                            "ISNULL(Images,'')," +
+                                                                            "ISNULL(Videos,'') " +
+                                                                                "FROM Tournament " +
                                                                                 "ORDER BY TournamentDate";
 
             SqlDataReader reader = command.ExecuteReader();

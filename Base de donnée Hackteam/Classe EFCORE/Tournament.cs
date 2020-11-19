@@ -11,10 +11,10 @@ namespace Base_de_donnée_Hackteam
 		public int Prize { get; set; } // prix de recompense
 		public string TournamentLocation { get; set; } // adresse du tournoi
 		public string TournamentType { get; set; } // type du tournoi ( cheval ou a pied)
-		public string Descrpition { get; set; } // description du tournois
+		public string Description { get; set; } // description du tournois
 		public int Participants { get; set; } // NB de participants
 		public string Champion { get; set; } // Champion en titre
 		public string Images { get; set; } //URL image
-		public string videos { get; set; } // URL  video
+		public string Videos { get; set; } // URL  video
 	}
 }
