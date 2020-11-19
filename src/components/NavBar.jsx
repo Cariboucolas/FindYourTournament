@@ -45,16 +45,8 @@ class NavBar extends React.Component {
         isOpen={this.state.menuOpen}
         onStateChange={(state) => this.handleStateChange(state)}
       >
-        <Link to="/" >
+        <Link onClick={() => this.closeMenu()} to="/" >
           <h1 className="home-logo">FYT</h1>
-        </Link>
-
-        <Link
-          id="home"
-          className="menu-item"
-          onClick={() => this.closeMenu()}
-          to="/">
-          Home
         </Link>
         <Link
           id="about"

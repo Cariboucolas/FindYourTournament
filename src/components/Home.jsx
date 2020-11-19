@@ -8,12 +8,9 @@ function Home() {
 
   return (
     <>
-      <h1 className="home">FYT</h1>
-      
-        <div class="content">
-          <p>Fight to the Death</p>
-        </div>
-      
+      <div class="content">
+        <p className="slogan">Fight to the Death</p>
+      </div>
       <img  fill="red" stroke="green" class="splatter" src={splash} alt="splash"></img>
 
       {/* <div

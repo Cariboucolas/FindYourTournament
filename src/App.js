@@ -19,7 +19,7 @@ function App() {
           <ScrollToTop />
           <NavBar />
           <Link to="/" >
-          <h1 className="home-logo">FYT</h1>
+            <h1 className="home-logo">FYT</h1>
           </Link>
           <Switch>
             <Route exact path="/">
