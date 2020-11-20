@@ -4,6 +4,7 @@ body {
   background: black;
   color: white;
   overflow: hidden;
+  scrollbar-color:black black;
 }
 
 
