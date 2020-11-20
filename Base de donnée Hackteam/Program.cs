@@ -14,54 +14,63 @@ namespace Base_de_donnée_Hackteam
 
                 Tournament tournament1 = new Tournament()
                 {
-                    TournamentName = "Tournoi N°1",
-                    TournamentDate = Convert.ToDateTime("15/01/1392"),
-                    Price = 2,
-                    Prize = 100,
-                    TournamentLocation = "Chateau de Versailles",
-                    Description = "Viens de friter contre ton rival",
-                    TournamentType = "Au sol",
-                    Participants = 25,  
-                    Champion = "Anosdagan",
+                    TournamentName = "Tournament Of the year ",
+                    TournamentDate = Convert.ToDateTime("15/09/1392"),
+                    Price = 50,
+                    Prize = 2500,
+                    TournamentLocation = "Versailles",
+                    Description = "This is the last tournament of the year, you will have the chance to fight in front of the king in person",
+                    TournamentType = "With Mount",
+                    Participants = 100,  
+                    Champion = "Creddred",
                     Images = "", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament2 = new Tournament()
                 {
-                    TournamentName = "Tournoi N°2",
-                    TournamentDate = Convert.ToDateTime("11/03/1392"),
-                    Price = 5,
+                    TournamentName = "Easter tournament",
+                    TournamentDate = Convert.ToDateTime("15/04/1392"),
+                    Price = 4,
                     Prize = 200,
-                    TournamentLocation = "Chateau de Colas",
-                    Description = "Viens labourer la pelouse",
-                    TournamentType = "Cheval",
-                    Participants = 10,
-                    Champion = "Creddred",
+                    TournamentLocation = "Castle of Saumur",
+                    Description = "We are not looking for eggs but for bloodthirsty fighters",
+                    TournamentType = "With mount",
+                    Participants = 50,
+                    Champion = "Anosdagan",
+                    Images = "", // URL image tournoi
+                    Videos = "", // URL image tournoi
                 };
                 Tournament tournament3 = new Tournament()
                 {
-                    TournamentName = "Tournoi N°3",
-                    TournamentDate = Convert.ToDateTime("22/01/1392"),
-                    Price = 0 ,
-                    Prize = 50,
-                    TournamentLocation = "Chateau d'eau",
-                    Description = "Initiation",
-                    TournamentType = "Au sol",
-                    Participants = 100,
+                    TournamentName = "Spring Tournament",
+                    TournamentDate = Convert.ToDateTime("20/03/1392"),
+                    Price = 1,
+                    Prize = 100,
+                    TournamentLocation = "Castle of Saumur",
+                    Description = "No time to see the tulips bloom, the fights have started again",
+                    TournamentType = "Without Mount",
+                    Participants = 50,
+                    Champion = "Anosdagan",
+                    Images = "", // URL image tournoi
+                    Videos = "", // URL image tournoi
                 };
                 Tournament tournament4 = new Tournament()
                 {
-                    TournamentName = "Tournoi N°4",
-                    TournamentDate = Convert.ToDateTime("15/01/1392"),
-                    Price = 100,
-                    Prize = 2500,
-                    TournamentLocation = "Le château de Fontainebleau.",
-                    Description = "Affronte les plus grands adversaire du moment !",
-                    TournamentType = "Au sol",
-                    Participants = 10,
+                    TournamentName = "Mother's Day tournaments",
+                    TournamentDate = Convert.ToDateTime("20/03/1392"),
+                    Price = 1,
+                    Prize = 100,
+                    TournamentLocation = "Castle of Saumur",
+                    Description = "No time to see the tulips bloom, the fights have started again",
+                    TournamentType = "Without Mount",
+                    Participants = 50,
+                    Champion = "Anosdagan",
+                    Images = "", // URL image tournoi
+                    Videos = "", // URL image tournoi
                 };
-                
-                context.AddRange(tournament1, tournament2, tournament3, tournament4);
+
+
+                context.AddRange(tournament1);
                 context.SaveChanges();
 
                 Knight knight1 = new Knight()
@@ -72,7 +81,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 1,
                     Banner = "", // URL banner
                     Weapons = "Sword, shield",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = true,
@@ -99,7 +108,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 6,
                     Banner = "", // URL banner
                     Weapons = "Spear",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Breastplate",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -126,7 +135,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 9,
                     Banner = "", // URL banner
                     Weapons = "Mace",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Chainmail",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -151,9 +160,9 @@ namespace Base_de_donnée_Hackteam
                     Age = 22,
                     Victories = 0,
                     Defeats = 5,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_1", // URL banner
                     Weapons = "Wood stick",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted weave",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -161,7 +170,7 @@ namespace Base_de_donnée_Hackteam
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
                     Moto = "these last words are 'stop it!'",
-                    Avatar = "", // URL avatar
+                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Aeltor.png", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
@@ -180,7 +189,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 0,
                     Banner = "", // URL banner
                     Weapons = "Two handed sword",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = true,
@@ -207,7 +216,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 0,
                     Banner = "", // URL banner
                     Weapons = "Dague",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted weave",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -234,7 +243,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 8,
                     Banner = "", // URL banner
                     Weapons = "Bow",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted Weave",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -261,7 +270,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 4,
                     Banner = "", // URL banner
                     Weapons = "Hammer",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Vikings armor",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = true,
@@ -288,7 +297,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 6,
                     Banner = "", // URL banner
                     Weapons = "Scourge",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale armor",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = true,
@@ -315,7 +324,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 4,
                     Banner = "", // URL banner
                     Weapons = "Axe",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = true,
@@ -342,7 +351,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 4,
                     Banner = "", // URL banner
                     Weapons = "Dagger",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quited weave",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = true,
@@ -369,7 +378,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 8,
                     Banner = "", // URL banner
                     Weapons = "Sword",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -396,7 +405,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 4,
                     Banner = "", // URL banner
                     Weapons = "Sword",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -423,7 +432,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 8,
                     Banner = "", // URL banner
                     Weapons = "Hallebarde",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -450,7 +459,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 4,
                     Banner = "", // URL banner
                     Weapons = "Spear",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Breastplate",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -477,7 +486,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 9,
                     Banner = "", // URL banner
                     Weapons = "Mace",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Chainmail",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = true,
@@ -504,7 +513,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 4,
                     Banner = "", // URL banner
                     Weapons = "Scourge",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale Armor",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -531,7 +540,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 1,
                     Banner = "", // URL banner
                     Weapons = "Dagger",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted weave",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -558,7 +567,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 4,
                     Banner = "", // URL banner
                     Weapons = "Scourge",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate Armor",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = true,
@@ -585,7 +594,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 25,
                     Banner = "", // URL banner
                     Weapons = "Sword",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate Armor",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -612,7 +621,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 1,
                     Banner = "", // URL banner
                     Weapons = "Mace",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Chainmail",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -639,7 +648,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 3,
                     Banner = "", // URL banner
                     Weapons = "Sword",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Breastplate",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -666,7 +675,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 8,
                     Banner = "", // URL banner
                     Weapons = "Spear",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -693,7 +702,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 11,
                     Banner = "", // URL banner
                     Weapons = "Axe",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale Armor",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,
@@ -720,7 +729,7 @@ namespace Base_de_donnée_Hackteam
                     Defeats = 9,
                     Banner = "", // URL banner
                     Weapons = "Dagger",
-                    WeaponsIcons = "", // URL weaponsIcons
+                    WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted Weave",
                     ArmorsIcons = "", // URL armorIcons
                     Mount = false,

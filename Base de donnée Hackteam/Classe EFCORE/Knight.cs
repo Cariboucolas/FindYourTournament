@@ -13,17 +13,24 @@ namespace Base_de_donnée_Hackteam
 
 		public int Defeats { get; set; }  // nb de defaites
 		public string Banner { get; set; } // URL de son badge
-		public string Weapons { get; set; }
-		public string Armors { get; set; }
-		public bool Mount { get; set; }
-		public string MountType { get; set; }
-		public string MountName { get; set; }
+		public string Weapons { get; set; } // arme
+		public string WeaponsIcons { get; set; } // URL des armes
+		public string Armors { get; set; } // Armure
+		public string ArmorsIcons { get; set; } // url d'armure
+		public bool Mount { get; set; } // Monture
+		public string MountType { get; set; } // type de monture
+		public string MountTypeIcons { get; set; } // url tye de monture
+		public string MountName { get; set; } // nom de la monture
 		public string Moto { get; set; } // son expression
 		public string Avatar { get; set; } // adresse URL de son avatar
 		public string Region { get; set; } // d'ou il vient
-		public string Pigeon { get; set; } // adresse email
-		public bool Alive { get; set; } // en vie 
+		public string Pigeon { get; set; }
+		public string PigeonIcons { get; set; }// adresse email
+		public bool Alive { get; set; }
+		public string AliveIcons { get; set; }// en vie 
 		public int Ranking { get; set; } // classement
+		public string RankingIcons { get; set; }
+		public string SuccessIcons { get; set; }
 
 	}
 }
