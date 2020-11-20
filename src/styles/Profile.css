@@ -1,0 +1,97 @@
+.weapon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 7vh;
+    width: 7vh;
+  }
+  
+  .profile-banner {
+    width: 150px;
+  }
+  
+  .avatar-profile {
+    max-width: 400px;
+    border: none
+  }
+  
+  .knight-header {
+    display: flex;
+    background-color: #2b2b2b;
+    max-width: 250px;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .header-profile {
+    margin-bottom: 30px
+  }
+  
+  .profile {
+    font-size: 1.3em;
+  }
+  
+  .profile-infos-knight {
+    font-size: 2rem;
+  }
+  
+  .title-section {
+    font-size: 2em;
+    margin: 20px
+  }
+  
+  .profile-info-container-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stats-container {
+    border: solid white;
+    padding: 30px;
+    margin: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 250px
+  }
+  
+  .profile-container-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: solid;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .stats-title {
+    font-size: 1.7em;
+    margin: 0px
+  }
+  
+  .icon-stats {
+    width: 50px
+  }
+  
+  .text-card {
+    font-size: 1.3em;
+  }
+  
+  .profileCard{
+    font-size:2em;
+  }
+  
+  .icons{
+    width: 30px
+  }
+  .myCaract{
+    text-align: left;
+    margin-left:1vw;
+  }
+  .profile-container div {
+    margin-bottom: 1vh;
+  }
