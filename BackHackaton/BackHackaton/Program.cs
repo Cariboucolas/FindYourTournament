@@ -16,13 +16,8 @@ namespace BackHackaton
     {
         public static void Main(string[] args)
         {
-            TournamentContext context = new TournamentContext();
+            CreateHostBuilder(args).Build().Run();
 
-
-            foreach(Tournament tournament in context.Tournament)
-            {
-                Console.WriteLine(tournament);
-            }
         }
         private static void CreateDatabase()
         {
@@ -853,6 +848,12 @@ namespace BackHackaton
                 knight14, knight15, knight16, knight17, knight18, knight19, knight20, knight21, knight22, knight23, knight24, knight25);
             context.SaveChanges();
         }
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
     }
 
 }
