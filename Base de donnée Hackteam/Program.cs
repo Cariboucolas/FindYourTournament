@@ -9,7 +9,7 @@ namespace Base_de_donnée_Hackteam
         {
             using (var context = new TournamentContext())
             {
-                context.Database.EnsureDeleted();
+               context.Database.EnsureDeleted();
                 context.Database.EnsureCreated();
 
                 Tournament tournament1 = new Tournament()

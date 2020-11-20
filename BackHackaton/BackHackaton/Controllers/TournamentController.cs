@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BackHackaton.BDD.ClassesEfCore;
+
 
 namespace BackHackaton.Controllers
 {
@@ -12,29 +14,29 @@ namespace BackHackaton.Controllers
     public class FYTController : ControllerBase
     {
         [HttpGet("tournament")]
-        public List<Tournaments> GetAllTournaments()
+        public List<Tournament> GetAllTournaments()
         {
 
-            return DataAbstractionLayer.SelectAllTournaments();
+            return SelectData.SelectAllTournaments();
 
         }
 
         [HttpGet("knight")]
         public List<Knight> GetAllKnights()
         {
-            return DataAbstractionLayer.SelectAllKnights();
+            return SelectData.SelectAllKnights();
         }
 
         [HttpGet("knight/alive")]
         public List<Knight> GetAliveKnights()
         {
-            return DataAbstractionLayer.SelectAliveKnights();
+            return SelectData.SelectAliveKnights();
         }
 
         [HttpGet("knight/haveAMount")]
         public List<Knight> GetKnightsHaveAMount()
         {
-            return DataAbstractionLayer.SelectKnightsHaveAMount();
+            return SelectData.SelectKnightsHaveAMount();
         }
     }
 }

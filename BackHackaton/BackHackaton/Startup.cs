@@ -25,6 +25,7 @@ namespace BackHackaton
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(
@@ -38,6 +39,8 @@ namespace BackHackaton
             });
         }
 
+
+
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -45,10 +48,9 @@ namespace BackHackaton
             {
                 app.UseDeveloperExceptionPage();
                 app.UseCors();
-
             }
-
             app.UseCors();
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
@@ -57,7 +59,9 @@ namespace BackHackaton
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
             });
+
         }
     }
 }
