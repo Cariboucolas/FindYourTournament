@@ -5,31 +5,31 @@ import "../styles/MyProfile.css"
 
 const knightInfo = [
   {
-    "knightId": 22,
-    "knightName": "Holdjamy",
-    "age": 34,
-    "victories": 25,
-    "defeats": 4,
-    "banner": "",
-    "weapons": "Hammer",
+    "knightId": 17,
+    "knightName": "Creddred",
+    "age": 28,
+    "victories": 31,
+    "defeats": 0,
+    "banner": "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_5.png",
+    "weapons": "Two handed sword",
     "weaponsIcons": "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png",
-    "armors": "Vikings armor",
-    "armorsIcons": "",
+    "armors": "Plate armor",
+    "armorsIcons": "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png",
     "mount": true,
-    "mountType": "Wolf",
-    "mountTypeIcons": "",
-    "mountName": "Canis",
-    "moto": "I have thor's hammer!",
-    "avatar": "",
-    "region": "",
-    "pigeon": "@pigeon.com",
-    "pigeonIcons": "",
+    "mountType": "Griffon",
+    "mountTypeIcons": "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png",
+    "mountName": "Ragnar",
+    "moto": "Cool, you are food for my pet",
+    "avatar": "http://milhiecreation.com/imagesHackaton/Avatar/Creddred.png",
+    "region": "Languedoc",
+    "pigeon": "Creddred_Languedoc@pigeon.com",
+    "pigeonIcons": "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png",
     "alive": true,
-    "aliveIcons": "",
-    "ranking": 2,
-    "rankingIcons": "",
-    "successIcons": ""
-  }
+    "aliveIcons": "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png",
+    "ranking": 1,
+    "rankingIcons": "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_or.png",
+    "successIcons": "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png"
+    }
 ]
 
 function MyProfile() {
@@ -61,7 +61,7 @@ function MyProfile() {
                   <h4>My stats</h4>
                   <div>Rank: {item.ranking}</div>
                   <div>
-                    <img src={item.badge} alt="badge" />
+                    <img src={item.successIcons} alt="badge" />
                   </div>
                   <div>
                     <img src={item.banner} alt="badge" />
@@ -71,7 +71,7 @@ function MyProfile() {
                 <div className="profile-container">
                   <h4>My caracteristics</h4>
                   <img className="icon" src={item.weaponsIcons} alt="weapon" />
-                  <div>My weapons: {item.weapons}
+                  <div>{item.weapons}
                   </div>
                   <div>My mount: {item.mount ? item.mountType + "Name:" + item.mountName : "none"}</div>
                   <div>Gear: {item.armors}</div>
