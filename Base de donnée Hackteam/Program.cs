@@ -14,11 +14,11 @@ namespace Base_de_donnée_Hackteam
 
                 Tournament tournament1 = new Tournament()
                 {
-                    TournamentName = "Tournament Of the year ",
-                    TournamentDate = Convert.ToDateTime("15/09/1392"),
-                    Price = 50,
-                    Prize = 2500,
-                    TournamentLocation = "Versailles",
+                    TournamentName = "Tournament Of the year : Christmas tournament ",
+                    TournamentDate = Convert.ToDateTime("25/12/1392"),
+                    Price = 100,
+                    Prize = 12500,
+                    TournamentLocation = "Castle of Vincennes",
                     Description = "This is the last tournament of the year, you will have the chance to fight in front of the king in person",
                     TournamentType = "With Mount",
                     Participants = 100,  
@@ -31,8 +31,8 @@ namespace Base_de_donnée_Hackteam
                     TournamentName = "Easter tournament",
                     TournamentDate = Convert.ToDateTime("15/04/1392"),
                     Price = 4,
-                    Prize = 200,
-                    TournamentLocation = "Castle of Saumur",
+                    Prize = 500,
+                    TournamentLocation = "Castle of Roquetaillade",
                     Description = "We are not looking for eggs but for bloodthirsty fighters",
                     TournamentType = "With mount",
                     Participants = 50,
@@ -46,31 +46,114 @@ namespace Base_de_donnée_Hackteam
                     TournamentDate = Convert.ToDateTime("20/03/1392"),
                     Price = 1,
                     Prize = 100,
-                    TournamentLocation = "Castle of Saumur",
+                    TournamentLocation = "Castle of Faverges",
                     Description = "No time to see the tulips bloom, the fights have started again",
                     TournamentType = "Without Mount",
-                    Participants = 50,
-                    Champion = "Anosdagan",
+                    Participants = 25,
+                    Champion = "Holdjamy",
                     Images = "", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament4 = new Tournament()
                 {
-                    TournamentName = "Mother's Day tournaments",
-                    TournamentDate = Convert.ToDateTime("20/03/1392"),
+                    TournamentName = "Mother's Day tournament",
+                    TournamentDate = Convert.ToDateTime("30/05/1392"),
+                    Price = 10,
+                    Prize = 250,
+                    TournamentLocation = "Castle of Veauce",
+                    Description = "Many mothers lose their children during this tournament",
+                    TournamentType = "Without Mount",
+                    Participants = 30,
+                    Champion = "Creddred",
+                    Images = "", // URL image tournoi
+                    Videos = "", // URL image tournoi
+                };
+                Tournament tournament5 = new Tournament()
+                {
+                    TournamentName = "Ascension Tournament",
+                    TournamentDate = Convert.ToDateTime("13/05/1392 "),
+                    Price = 10,
+                    Prize = 1000,
+                    TournamentLocation = "Castle of Rouen",
+                    Description = "As the symbol of faith expresses it: “He ascended into Heaven; he is seated at the right hand of the Father. He will come again in glory to judge the living and the dead, and his reign will have no end ",
+                    TournamentType = "With Mount",
+                    Participants = 75,
+                    Champion = "Asnosdagan",
+                    Images = "", // URL image tournoi
+                    Videos = "", // URL image tournoi
+                };
+                Tournament tournament6 = new Tournament()
+                {
+                    TournamentName = "Epiphany tournament",
+                    TournamentDate = Convert.ToDateTime("06/01/1392"),
                     Price = 1,
                     Prize = 100,
-                    TournamentLocation = "Castle of Saumur",
-                    Description = "No time to see the tulips bloom, the fights have started again",
+                    TournamentLocation = "Palace of the Dukes of Bourgogne",
+                    Description = "Epiphany: opening of the Combats, we have been waiting for this since last year",
                     TournamentType = "Without Mount",
                     Participants = 50,
-                    Champion = "Anosdagan",
+                    Champion = "",
+                    Images = "", // URL image tournoi
+                    Videos = "", // URL image tournoi
+                };
+                Tournament tournament7 = new Tournament()
+                {
+                    TournamentName = "Pentecote tournament",
+                    TournamentDate = Convert.ToDateTime("23/05/1392"),
+                    Price = 50,
+                    Prize = 1000,
+                    TournamentLocation = "Castle of Courtanvaux",
+                    Description = "",
+                    TournamentType = "With Mount",
+                    Participants = 50,
+                    Champion = "",
+                    Images = "", // URL image tournoi
+                    Videos = "", // URL image tournoi
+                };
+                Tournament tournament8 = new Tournament()
+                {
+                    TournamentName = "Assumption tournament",
+                    TournamentDate = Convert.ToDateTime("15/08/1392"),
+                    Price = 50,
+                    Prize = 1000,
+                    TournamentLocation = "Castle of Thorens",
+                    Description = "The Assumption of the Blessed Virgin and also of our fighters",
+                    TournamentType = "With Mount",
+                    Participants = 100,
+                    Champion = "",
+                    Images = "", // URL image tournoi
+                    Videos = "", // URL image tournoi
+                };
+                Tournament tournament9 = new Tournament()
+                {
+                    TournamentName = "Toussaint tournament",
+                    TournamentDate = Convert.ToDateTime("01/11/1392"),
+                    Price = 25,
+                    Prize = 500,
+                    TournamentLocation = "Castle of Falaise",
+                    Description = "The day after the feast of the dead: enough to honor all these fighters who left too early",
+                    TournamentType = "Without Mount",
+                    Participants = 100,
+                    Champion = "",
+                    Images = "", // URL image tournoi
+                    Videos = "", // URL image tournoi
+                };
+                Tournament tournament10 = new Tournament()
+                {
+                    TournamentName = "Charles V tournament ",
+                    TournamentDate = Convert.ToDateTime("01/11/1392"),
+                    Price = 25,
+                    Prize = 500,
+                    TournamentLocation = "Castle of Falaise",
+                    Description = "The day after the feast of the dead: enough to honor all these fighters who left too early",
+                    TournamentType = "Without Mount",
+                    Participants = 100,
+                    Champion = "",
                     Images = "", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
 
-
-                context.AddRange(tournament1);
+                context.AddRange(tournament1, tournament2, tournament3, tournament4, tournament5, tournament6, tournament7, tournament8, tournament9,tournament10);
                 context.SaveChanges();
 
                 Knight knight1 = new Knight()
