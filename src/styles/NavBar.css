@@ -76,6 +76,12 @@
     padding: 12px;
     font-size: 1.8em
   }
+
   .home-navbar{
     font-size: 15vh;
+  }
+
+  .navbar-logo {
+    font-size: 15vh;
+    margin: 0px;
   }

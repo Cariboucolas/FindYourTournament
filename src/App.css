@@ -10,6 +10,7 @@
 
 main {
   min-height: 100vh;
+  font-family: 'roboto';
 }
 
 a{
@@ -24,6 +25,13 @@ a{
   font-size: 25vh;
   margin: 1%;
 }
+
+.site-logo {
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 15vh;
+  margin-top: 10px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -61,9 +69,11 @@ a{
   cursor: auto;
   color: white;
 }
+
 .home-logo{
   position: absolute;
   text-align: center;
   top: 40%;
   left: 10%;
 }
+

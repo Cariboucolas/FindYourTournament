@@ -22,11 +22,11 @@
     margin: 0 2%;
 }
 .name{
-    font-size: 7vh;
+    font-size: 5vh;
 }
 .description{
     word-wrap: break-word;
-    font-size: 6vh;
+    /* font-: 6vh; */
     margin: auto;
     width: 80%;
     text-align: center;
@@ -34,9 +34,10 @@
 .tournament-img{
     height:30vh;
 }
-.location{
+
+/* .location{
     font-size: 6vh;
-}
+} */
 /* .tournament-card{
     display: flex;
     flex-direction: column;

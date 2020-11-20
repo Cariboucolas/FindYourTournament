@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 
 
@@ -114,6 +115,9 @@ function Profile() {
   return (
 
     <div>
+      <Link to="/" >
+        <h1 className="site-logo">FYT</h1>
+      </Link>
       <div className="header-profile">
         <img src={knight.avatar} />
         <h3>{knight.knightName}</h3>

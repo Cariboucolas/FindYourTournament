@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import "../styles/RankingList.css";
 import RankingCard from './RankingCard';
 
@@ -100,21 +101,26 @@ const knightsArr = [
   }
 ]
 
-function RankingList(){
+function RankingList() {
 
   const [knights, getKnights] = useState([])
 
-useEffect(() => {
-  getKnights(knightsArr)
-}, [])
+  useEffect(() => {
+    getKnights(knightsArr)
+  }, [])
 
-  return(
-    <div className="ranking-list">
-    <h1>Ranking</h1>
-    {knights.map(item => 
-      <RankingCard knight = {item} />
-    )}
-    </div>
+  return (
+    <>
+      <Link to="/" >
+        <h1 className="site-logo">FYT</h1>
+      </Link>
+      <div className="ranking-list">
+        <h1>Ranking</h1>
+        {knights.map(item =>
+          <RankingCard knight={item} />
+        )}
+      </div>
+    </>
   )
 }
 

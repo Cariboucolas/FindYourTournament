@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import "../styles/MyProfile.css"
 
 const knightInfo = [
@@ -28,6 +30,9 @@ function MyProfile() {
 
   return (
     <>
+      <Link to="/" >
+        <h1 className="site-logo">FYT</h1>
+      </Link>
       <h1>My profile</h1>
       {
         knightInfo.map(item => {
