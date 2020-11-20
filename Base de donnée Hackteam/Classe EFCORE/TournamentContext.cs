@@ -10,7 +10,7 @@ namespace Base_de_donnée_Hackteam
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Server=LOCALHOST\SQLEXPRESS;Database=HackTeam;Integrated Security=True");
+                @"Server=tcp:backhackatondb.database.windows.net,1433;Initial Catalog=HackTeam;Persist Security Info=False;User ID=hackteam;Password=$Hack2020;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
     }
 }
