@@ -9,6 +9,7 @@ import RankingList from './components/RankingList'
 import NavBar from './components/NavBar';
 import Home from './components/Home'
 import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -28,14 +29,19 @@ function App() {
             </Route>
             <Route path="/tournaments">
               <TournamentsList />
+              <Footer />
             </Route>
             <Route path="/rankings">
               <RankingList />
+              <Footer />
             </Route>
             <Route path="/my-profile">
               <MyProfile />
             </Route>
-            <Route path="/profile/:id" component={Profile} />
+            <Route path="/profile/:id">
+              <Profile />
+              <Footer />
+            </Route>
             <Route path="/tournament/:id" component={TournamentDetails} />
           </Switch>
         </Router>

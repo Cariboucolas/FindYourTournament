@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{5F16937D-2B9B-46C2-9CC5-A3F6C80463E9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BackHackaton/Controllers/TournamentController.cs">
+    <Files>
+      <File FileName="BackHackaton/Controllers/TournamentController.cs" Line="14" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BackHackaton" expanded="True">
+            <Node name="BackHackaton" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="TournamentController.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BackHackaton PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
