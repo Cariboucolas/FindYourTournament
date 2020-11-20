@@ -173,7 +173,7 @@ const TournamentsList = () => {
       <Link to="/" >
         <h1 className="site-logo">FYT</h1>
       </Link>
-      <h3 className="tournaments">Tournaments</h3>
+      <h1 className="tournaments">Tournaments</h1>
       <div className="container">
         {tournaments.map(tournament =>
           <TournamentCard tournament={tournament} />
