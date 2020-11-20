@@ -202,7 +202,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Houra!",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Anosdagan.png", // URL avatar
                     Region = "Ile-de-france",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Anosdagan_Iledefrance@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -229,7 +229,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "I am not afraid of death !",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Autfred.png", // URL avatar
                     Region = "Berry",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Autfred_Berry@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -256,7 +256,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Fear me !",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Bertlance.png", // URL avatar
                     Region = "Lyonnois",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Bertlance_Lyonnois@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -283,7 +283,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "these last words are 'stop it!'",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Aeltor.png", // URL avatar
                     Region = "Chaimpaigne",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Aeltor_Chaimpaigne@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
@@ -310,7 +310,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Cool, you are food for my pet",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Creddred.png", // URL avatar
                     Region = "Languedoc",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Creddred_Languedoc@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -337,7 +337,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Tzi shu force is with me",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Daganho.png", // URL avatar
                     Region = "Poetou",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Daganho_Poetou@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -364,7 +364,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "My arrows are faster than your weapons",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Ethward.png", // URL avatar
                     Region = "Orleanois",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Ethward_Orleanois@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -391,7 +391,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "I have thor's hammer!",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Holdjamy.png", // URL avatar
                     Region = "Aquitaine",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Holdjamy_Aquitaine@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -418,7 +418,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "My animal is still in the air",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Jasmor.png", // URL avatar
                     Region = "Poetou",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Jasmor_Poetou@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -445,7 +445,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Comme and measure yourself against me",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Leodagan.png", // URL avatar
                     Region = "Santonge",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Leodagan_Santonge@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -472,7 +472,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "My pet isn't fodd",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Lotaut.png", // URL avatar
                     Region = "Chaimpaigne",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Lotaut_Chaimpaigne@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -499,7 +499,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "I will be the best !",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Nulfar.png", // URL avatar
                     Region = "Toraine",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Nulfar_Toraine@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
@@ -526,7 +526,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "I will be the best !",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Percyward.png", // URL avatar
                     Region = "Normaundie",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Percyward_Normaundie@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
@@ -553,7 +553,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Drop to my halberd",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Agaaut.png", // URL avatar
                     Region = "Languedoc",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Agaaut_Languedoc@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -580,7 +580,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Drop to my halberd",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Bojas.png", // URL avatar
                     Region = "Aunis",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Bojas_Aunis@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -607,7 +607,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Do you know the realy death ?",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Jeain.png", // URL avatar
                     Region = "Aunis",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Jeain_Aunis@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -634,7 +634,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Could you be nice to me ?",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Nardarnold.png", // URL avatar
                     Region = "Santonge",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Nardarnold_Santonge@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -660,8 +660,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "",
                     Moto = "Let's go",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Tuslot.png", // URL avatar
-                    Region = "poetou",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Region = "Poetou",
+                    Pigeon = "Tuslot_Poetou@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
@@ -688,7 +688,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Say your prayer",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Valeranos.png", // URL avatar
                     Region = "Delfinat",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Valeranos_Delfinat@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -715,7 +715,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "There was a time when i was first",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Reindric.png", // URL avatar
                     Region = "Francie",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Reindric_Francie@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -742,7 +742,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "I have the courage to face the greatest",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Rollrein.png", // URL avatar
                     Region = "Francie",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Rollrein_Francie@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -769,7 +769,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "I learn every day",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Tanje.png", // URL avatar
                     Region = "Berry",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Tanje_Berry@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -796,7 +796,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "Call me the last punishment",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Telperce.png", // URL avatar
                     Region = "Normaundie",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Telperce_Normaundie@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -823,7 +823,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "like King Leonidas: Spartan what is your profession ? HAOU!",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Thurward.png", // URL avatar
                     Region = "Toraine",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Thurward_Toraine@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -850,7 +850,7 @@ namespace Base_de_donnée_Hackteam
                     Moto = "You were born dust and you will be again",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Vallande.png", // URL avatar
                     Region = "Delfinat",
-                    Pigeon = "@pigeon.com", //adress mail
+                    Pigeon = "Vallande_Delfinat@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
