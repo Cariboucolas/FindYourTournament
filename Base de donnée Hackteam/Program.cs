@@ -14,7 +14,7 @@ namespace Base_de_donnée_Hackteam
 
                 Tournament tournament1 = new Tournament()
                 {
-                    TournamentName = "Tournament Of the year : Christmas tournament ",
+                    TournamentName = "Tournament of the year : Christmas Tournament ",
                     TournamentDate = Convert.ToDateTime("25/12/1392"),
                     Price = 100,
                     Prize = 12500,
@@ -24,11 +24,11 @@ namespace Base_de_donnée_Hackteam
                     Participants = 100,  
                     Champion = "Creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_1.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament2 = new Tournament()
                 {
-                    TournamentName = "Easter tournament",
+                    TournamentName = "Easter Tournament",
                     TournamentDate = Convert.ToDateTime("15/04/1392"),
                     Price = 4,
                     Prize = 500,
@@ -38,7 +38,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 50,
                     Champion = "Anosdagan",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_2.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament3 = new Tournament()
                 {
@@ -52,11 +52,11 @@ namespace Base_de_donnée_Hackteam
                     Participants = 25,
                     Champion = "Holdjamy",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_3.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_foot_1.png", // URL image tournoi
                 };
                 Tournament tournament4 = new Tournament()
                 {
-                    TournamentName = "Mother's Day tournament",
+                    TournamentName = "Mother's Day Tournament",
                     TournamentDate = Convert.ToDateTime("30/05/1392"),
                     Price = 10,
                     Prize = 250,
@@ -66,7 +66,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 30,
                     Champion = "Creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_4.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_foot_1.png", // URL image tournoi
                 };
                 Tournament tournament5 = new Tournament()
                 {
@@ -80,11 +80,11 @@ namespace Base_de_donnée_Hackteam
                     Participants = 75,
                     Champion = "Asnosdagan",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_5.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament6 = new Tournament()
                 {
-                    TournamentName = "Epiphany tournament",
+                    TournamentName = "Epiphany Tournament",
                     TournamentDate = Convert.ToDateTime("06/01/1392"),
                     Price = 1,
                     Prize = 100,
@@ -94,11 +94,11 @@ namespace Base_de_donnée_Hackteam
                     Participants = 50,
                     Champion = "",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_6.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_foot_1.png", // URL image tournoi
                 };
                 Tournament tournament7 = new Tournament()
                 {
-                    TournamentName = "Pentecote tournament",
+                    TournamentName = "Pentecote Tournament",
                     TournamentDate = Convert.ToDateTime("23/05/1392"),
                     Price = 50,
                     Prize = 1000,
@@ -108,11 +108,11 @@ namespace Base_de_donnée_Hackteam
                     Participants = 50,
                     Champion = "Creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_7.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament8 = new Tournament()
                 {
-                    TournamentName = "Assumption tournament",
+                    TournamentName = "Assumption Tournament",
                     TournamentDate = Convert.ToDateTime("15/08/1392"),
                     Price = 50,
                     Prize = 1000,
@@ -122,11 +122,11 @@ namespace Base_de_donnée_Hackteam
                     Participants = 100,
                     Champion = "Holdjamy",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_8.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament9 = new Tournament()
                 {
-                    TournamentName = "Toussaint tournament",
+                    TournamentName = "Toussaint Tournament",
                     TournamentDate = Convert.ToDateTime("01/11/1392"),
                     Price = 25,
                     Prize = 500,
@@ -136,11 +136,11 @@ namespace Base_de_donnée_Hackteam
                     Participants = 50,
                     Champion = "Anosdagan",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_9.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_foot_1.png", // URL image tournoi
                 };
                 Tournament tournament10 = new Tournament()
                 {
-                    TournamentName = "Charles V tournament ",
+                    TournamentName = "Charles V Tournament ",
                     TournamentDate = Convert.ToDateTime("01/11/1392"),
                     Price = 5,
                     Prize = 100,
@@ -150,25 +150,25 @@ namespace Base_de_donnée_Hackteam
                     Participants = 20,
                     Champion = "Anosdagan",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_10.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament11 = new Tournament()
                 {
-                    TournamentName = "Clément VII tournament ",
+                    TournamentName = "Clément VII Tournament ",
                     TournamentDate = Convert.ToDateTime("01/11/1392"),
                     Price = 10,
                     Prize = 500,
                     TournamentLocation = "Castle of Falaise",
                     Description = "Come and entertain Pope Clement VII",
-                    TournamentType = "With Mount",
+                    TournamentType = "Without Mount",
                     Participants = 30,
                     Champion = "creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_11.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_foot_1.png", // URL image tournoi
                 };
                 Tournament tournament12 = new Tournament()
                 {
-                    TournamentName = "Annunciation tournament",
+                    TournamentName = "Annunciation Tournament",
                     TournamentDate = Convert.ToDateTime("15/02/1392"),
                     Price = 10,
                     Prize = 500,
@@ -178,7 +178,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 30,
                     Champion = "creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_12.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
 
                 context.AddRange(tournament1, tournament2, tournament3, tournament4, tournament5, tournament6, tournament7, tournament8, tournament9,tournament10, tournament11, tournament12);
