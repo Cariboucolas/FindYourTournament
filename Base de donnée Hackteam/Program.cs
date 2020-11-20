@@ -160,7 +160,7 @@ namespace Base_de_donnée_Hackteam
                     Prize = 500,
                     TournamentLocation = "Castle of Falaise",
                     Description = "Come and entertain Pope Clement VII",
-                    TournamentType = "With Mount",
+                    TournamentType = "Without Mount",
                     Participants = 30,
                     Champion = "creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_11.png", // URL image tournoi
