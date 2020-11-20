@@ -5,20 +5,20 @@ const FooterPage = () => {
   return (
     <div className="footer">
       <div className="footer-items">
-        <h1 className="home-logo">FYT</h1>
-        <h3 className="footer-subtitle">Find your tournament </h3>
+        <h3 className="footer-logo">FYT</h3>
+        <p className="footer-subtitle">Find your tournament </p>
       </div>
-      <div className="footer-items">
-        <h3>Explore</h3>
-        <ul>Home</ul>
-        <ul>My profile</ul>
-        <ul>Rankings</ul>
-      </div>
-      <div className="footer-items">
-        <h3>Legal</h3>
-        <ul>Terms</ul>
-        <ul>Privacy</ul>
-      </div>
+      <ul className="footer-items">
+        <h3 className="sub-titles">Explore</h3>
+        <li>Home</li>
+        <li>My profile</li>
+        <li>Rankings</li>
+      </ul>
+      <ul className="footer-items">
+        <h3 className="sub-titles">Legal</h3>
+        <li>Terms</li>
+        <li>Privacy</li>
+      </ul>
     </div>
   );
 }

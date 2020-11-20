@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
-import SearchTournament from './components/SearchTournament';
+import TournamentsList from './components/TournamentsList';
 import Profile from './components/Profile';
 import MyProfile from './components/MyProfile';
 import RankingList from './components/RankingList'
@@ -18,15 +18,16 @@ function App() {
         <Router>
           <ScrollToTop />
           <NavBar />
-          <Link to="/" >
-          <h1 className="home-logo">FYT</h1>
-          </Link>
+          
           <Switch>
             <Route exact path="/">
+              <Link to="/" >
+                <h1 className="home-logo">FYT</h1>
+              </Link>
               <Home />
             </Route>
             <Route path="/tournaments">
-              <SearchTournament />
+              <TournamentsList />
             </Route>
             <Route path="/rankings">
               <RankingList />
