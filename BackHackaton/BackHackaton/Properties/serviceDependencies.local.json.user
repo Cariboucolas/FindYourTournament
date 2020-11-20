@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2020-11-20T08:26:08.8453458Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2020-11-20T08:26:19.2075337Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "ce09b647-f8e6-4e38-95f4-2f367c4a97e9"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "BackHackaton"
+    }
+  }
+}
