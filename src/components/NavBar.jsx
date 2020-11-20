@@ -1,10 +1,7 @@
 
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu'
-import {
-
-  Link
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../styles/NavBar.css'
 
 class NavBar extends React.Component {
@@ -45,8 +42,16 @@ class NavBar extends React.Component {
         isOpen={this.state.menuOpen}
         onStateChange={(state) => this.handleStateChange(state)}
       >
-        <Link onClick={() => this.closeMenu()} to="/" >
-          <h1 className="home-navbar">FYT</h1>
+        <Link to="/" >
+          <h1 className="home-logo">FYT</h1>
+        </Link>
+
+        <Link
+          id="home"
+          className="menu-item"
+          onClick={() => this.closeMenu()}
+          to="/">
+          Home
         </Link>
         <Link
           id="about"
