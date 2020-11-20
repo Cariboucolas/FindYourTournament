@@ -24,7 +24,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 100,  
                     Champion = "Creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_1.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament2 = new Tournament()
                 {
@@ -38,7 +38,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 50,
                     Champion = "Anosdagan",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_2.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament3 = new Tournament()
                 {
@@ -52,7 +52,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 25,
                     Champion = "Holdjamy",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_3.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_foot_1.png", // URL image tournoi
                 };
                 Tournament tournament4 = new Tournament()
                 {
@@ -66,7 +66,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 30,
                     Champion = "Creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_4.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_foot_1.png", // URL image tournoi
                 };
                 Tournament tournament5 = new Tournament()
                 {
@@ -80,7 +80,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 75,
                     Champion = "Asnosdagan",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_5.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament6 = new Tournament()
                 {
@@ -94,7 +94,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 50,
                     Champion = "",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_6.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_foot_1.png", // URL image tournoi
                 };
                 Tournament tournament7 = new Tournament()
                 {
@@ -108,7 +108,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 50,
                     Champion = "Creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_7.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament8 = new Tournament()
                 {
@@ -122,7 +122,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 100,
                     Champion = "Holdjamy",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_8.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament9 = new Tournament()
                 {
@@ -136,7 +136,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 50,
                     Champion = "Anosdagan",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_9.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_foot_1.png", // URL image tournoi
                 };
                 Tournament tournament10 = new Tournament()
                 {
@@ -150,7 +150,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 20,
                     Champion = "Anosdagan",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_10.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
                 Tournament tournament11 = new Tournament()
                 {
@@ -164,7 +164,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 30,
                     Champion = "creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_11.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_foot_1.png", // URL image tournoi
                 };
                 Tournament tournament12 = new Tournament()
                 {
@@ -178,7 +178,7 @@ namespace Base_de_donnée_Hackteam
                     Participants = 30,
                     Champion = "creddred",
                     Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_12.png", // URL image tournoi
-                    Videos = "", // URL image tournoi
+                    Videos = "http://milhiecreation.com/imagesHackaton/Tournament/bg_horse_1.png", // URL image tournoi
                 };
 
                 context.AddRange(tournament1, tournament2, tournament3, tournament4, tournament5, tournament6, tournament7, tournament8, tournament9,tournament10, tournament11, tournament12);
