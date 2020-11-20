@@ -5,23 +5,30 @@ import "../styles/MyProfile.css"
 
 const knightInfo = [
   {
-    "knightId": 1,
-    "knightName": "La machine",
-    "age": 25,
-    "victories": 5,
-    "defeats": 0,
-    "badge": "",
-    "weapons": "sword , shield",
-    "armors": "Plate Armor",
-    "mount": false,
-    "mountType": "",
-    "mountName": "",
-    "moto": "Banzai",
+    "knightId": 22,
+    "knightName": "Holdjamy",
+    "age": 34,
+    "victories": 25,
+    "defeats": 4,
+    "banner": "",
+    "weapons": "Hammer",
+    "weaponsIcons": "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png",
+    "armors": "Vikings armor",
+    "armorsIcons": "",
+    "mount": true,
+    "mountType": "Wolf",
+    "mountTypeIcons": "",
+    "mountName": "Canis",
+    "moto": "I have thor's hammer!",
     "avatar": "",
-    "region": "Occitanie",
-    "pigeon": "",
+    "region": "",
+    "pigeon": "@pigeon.com",
+    "pigeonIcons": "",
     "alive": true,
-    "ranking": 1
+    "aliveIcons": "",
+    "ranking": 2,
+    "rankingIcons": "",
+    "successIcons": ""
   }
 ]
 
@@ -39,7 +46,7 @@ function MyProfile() {
           return (
             <div>
               <div className="header-profile">
-                <img src={item.avatar} />
+                <img className="avatar-list" src={item.avatar} />
                 <h3>{item.knightName}</h3>
                 <div>{item.age}</div>
                 <div>{item.alive ? "Alive" : "Dead"}</div>
@@ -63,7 +70,9 @@ function MyProfile() {
 
                 <div className="profile-container">
                   <h4>My caracteristics</h4>
-                  <div>My weapons: {item.weapons}</div>
+                  <img className="icon" src={item.weaponsIcons} alt="weapon" />
+                  <div>My weapons: {item.weapons}
+                  </div>
                   <div>My mount: {item.mount ? item.mountType + "Name:" + item.mountName : "none"}</div>
                   <div>Gear: {item.armors}</div>
                   <div>Region: {item.region}</div>
@@ -71,8 +80,6 @@ function MyProfile() {
                   <div>Moto: {item.moto}</div>
                 </div>
               </div>
-
-              <h4>Tournaments coming up</h4>
             </div>
           )
 

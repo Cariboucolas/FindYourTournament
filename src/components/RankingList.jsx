@@ -125,7 +125,7 @@ function RankingList() {
         <h1 className="site-logo">FYT</h1>
       </Link>
       <div className="ranking-list">
-        <h1>Ranking</h1>
+        <h1>Rankings</h1>
         {knights.map(item =>
           <RankingCard knight={item} />
         )}

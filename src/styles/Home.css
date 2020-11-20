@@ -1,24 +1,25 @@
-.slogan{
-    z-index: 1000;
+.slogan {
+  z-index: 1000;
   font-weight: 300;
-font-size: 13px;
-padding: 0;
-line-height: 1;
-letter-spacing: 0.03em;
-text-align: left;
-margin-left: 10%;
-font-size: 10vh;
-margin-top: 25vh;
+  font-size: 13px;
+  padding: 0;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-left: 10%;
+  font-size: 10vh;
+  margin-top: 25vh;
+  font-family: 'Nanum Brush Script', cursive
 }
 
-  .content {
-    position: relative;
-    z-index: 1000;
-    top: 50px;
-    height: 10%;
-    width: 100%;
-    text-align: center;
-    /* -webkit-animation-name: fadeIn;
+.content {
+  position: relative;
+  z-index: 1000;
+  top: 50px;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  /* -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
     -webkit-animation-duration: 1.0s;
     animation-duration: 1.0s;
@@ -26,63 +27,72 @@ margin-top: 25vh;
     animation-fill-mode: both;
     -webkit-animation-delay: 0.6s;
     animation-delay: 0.5s; */
+}
+
+.splatter {
+  position: absolute;
+  height: 95vh;
+  filter: invert(26%) sepia(34%) saturate(6785%) hue-rotate(331deg) brightness(85%) contrast(110%);
+  bottom: 0;
+  right: 5%;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  .splatter {
-    position: absolute;
-    height: 95vh;
-    filter: invert(26%) sepia(34%) saturate(6785%) hue-rotate(331deg) brightness(85%) contrast(110%);
-    bottom: 0;
-    right: 5%;
-    -webkit-animation-name: zoomIn;
-    animation-name: zoomIn;
-    -webkit-animation-duration: .3s;
-    animation-duration: .3s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both; 
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s; 
-    
+  100% {
+    opacity: 1;
   }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+  100% {
+    opacity: 1;
   }
-  @-webkit-keyframes zoomIn {
-    0% {
-      opacity: 0;
-      -webkit-transform: scale3d(.3, .3, .3);
-              transform: scale3d(.3, .3, .3);
-    }
-  
-    50% {
-      opacity: 1;
-    }
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
   }
-  
-  @keyframes zoomIn {
-    0% {
-      opacity: 0;
-      -webkit-transform: scale3d(.3, .3, .3);
-              transform: scale3d(.3, .3, .3);
-    }
-  
-    50% {
-      opacity: 1;
-    }
+  50% {
+    opacity: 1;
   }
-  
-  .zoomIn {
-    -webkit-animation-name: zoomIn;
-            animation-name: zoomIn;
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
   }
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
 /* light */
-.lightning{
+
+.lightning {
   position: fixed;
   top: 0;
   left: 0;
@@ -97,32 +107,56 @@ margin-top: 25vh;
   -o-filter: brightness(3);
   -moz-filter: brightness(3);
   z-index: -1;
-  
 }
 
 /*Now just a opacity animation*/
-.flashit{
--webkit-animation: flash ease-out 3s infinite;
--moz-animation: flash ease-out 3s infinite;
-animation: flash ease-out 3s infinite;
 
+.flashit {
+  -webkit-animation: flash ease-out 3s infinite;
+  -moz-animation: flash ease-out 3s infinite;
+  animation: flash ease-out 3s infinite;
 }
 
 @-webkit-keyframes flash {
-	from { opacity: 0; }
-  92% { opacity: 0; }
-	93% { opacity: 0.6; }
-  94% { opacity: 0.2; }
-  96% { opacity: 0.9; } 
-	to { opacity: 0; }
+  from {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  93% {
+    opacity: 0.6;
+  }
+  94% {
+    opacity: 0.2;
+  }
+  96% {
+    opacity: 0.9;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 @keyframes flash {
-	from { opacity: 0; } 
-    92% { opacity: 0; }
-	93% { opacity: 0.6; }
-    94% { opacity: 0.2; }
-    96% { opacity: 1; } 
-	to { opacity: 0; }
+  from {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  93% {
+    opacity: 0.6;
+  }
+  94% {
+    opacity: 0.2;
+  }
+  96% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
+
 /*End! is that simple! */
