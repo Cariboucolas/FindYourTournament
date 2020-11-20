@@ -1,0 +1,11 @@
+.weapon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 7vh;
+width: 7vh;
+    
+}
+.profile{
+    font-size: 6vh;
+}

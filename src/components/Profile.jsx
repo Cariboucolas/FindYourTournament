@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
+import '../styles/Profile.css';
 
 
 const knightsArr =[
@@ -674,36 +675,47 @@ function Profile() {
         <h1 className="site-logo">FYT</h1>
       </Link>
       <div className="header-profile">
-        <img className="avatar-profile" src={knight.avatar} alt="avatar" />
-        <h3>{knight.knightName}</h3>
-        <div>{knight.age}</div>
-        <div>{knight.alive ? "Alive" : "Dead"}</div>
+        <div>
+          <img className="avatar-profile" src={knight.avatar} alt="avatar" />
+          <div className="profile">
+            <img src={knight.banner} alt="badge" />
+          </div>
+          <h3 className="profile">{knight.knightName}</h3>
+          <div className="profile">{knight.age}</div>
+          <div className="profile">{knight.alive ? "Alive" : "Dead"}</div>
+        </div>
+        
       </div>
       <div className="profile-container">
-        <div>Number of victories: {knight.victories}</div>
-        <div>Number of defeats: {knight.defeats}</div>
+        
+        
       </div>
 
       <div className="profile-info-container">
         <div className="profile-container">
-          <h4>My stats</h4>
-          <div>Rank: {knight.ranking}</div>
-          <div>
+          <h4 className="profile">My stats</h4>
+          <div className="profile">Rank: {knight.ranking}</div>
+          <div className="profile">Victories: {knight.victories}</div>
+          <div className="profile">Defeats: {knight.defeats}</div>
+          {/* <div>
             <img src={knight.badge} alt="badge" />
-          </div>
-          <div>
-            <img src={knight.banner} alt="badge" />
-          </div>
+          </div> */}
         </div>
-
         <div className="profile-container">
-          <h4>My caracteristics</h4>
-          <div>My weapons: {knight.weapons}</div>
-          <div>My mount: {knight.mount ? knight.mountType + "Name:" + knight.mountName : "none"}</div>
-          <div>Gear: {knight.armors}</div>
-          <div>Region: {knight.region}</div>
-          <div>Pigeon: {knight.pigeon}</div>
-          <div>Moto: {knight.moto}</div>
+          <h4 className="profile">My caracteristics</h4>
+          <div className="weapon">
+            <img alt={knight.weapons} src={knight.weaponsIcons}/>
+            <div className="profile">My weapons: {knight.weapons}</div>
+          </div>
+          <div className="profile">
+            <img className="characteristics" alt={knight.name} src={knight.mountTypeIcons}/>
+            <div className="profile">My mount: {knight.mount ? knight.mountType + "Name:" + knight.mountName : "none"}</div>
+          </div>
+         
+          <div className="profile">Gear: {knight.armors}</div>
+          <div className="profile">Region: {knight.region}</div>
+          <div className="profile">Pigeon: {knight.pigeon}</div>
+          <div className="profile">Moto: {knight.moto}</div>
         </div>
       </div>
     </div>
