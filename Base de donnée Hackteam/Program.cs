@@ -766,7 +766,7 @@ namespace Base_de_donnée_Hackteam
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
-                    Moto = "",
+                    Moto = "I learn every day",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Tanje.png", // URL avatar
                     Region = "Berry",
                     Pigeon = "@pigeon.com", //adress mail
@@ -793,7 +793,7 @@ namespace Base_de_donnée_Hackteam
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
-                    Moto = "",
+                    Moto = "Call me the last punishment",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Telperce.png", // URL avatar
                     Region = "Normaundie",
                     Pigeon = "@pigeon.com", //adress mail
@@ -820,7 +820,7 @@ namespace Base_de_donnée_Hackteam
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
-                    Moto = "",
+                    Moto = "like King Leonidas: Spartan what is your profession ? HAOU!",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Thurward.png", // URL avatar
                     Region = "Toraine",
                     Pigeon = "@pigeon.com", //adress mail
@@ -847,7 +847,7 @@ namespace Base_de_donnée_Hackteam
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
-                    Moto = "",
+                    Moto = "You were born dust and you will be again",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Vallande.png", // URL avatar
                     Region = "Delfinat",
                     Pigeon = "@pigeon.com", //adress mail
