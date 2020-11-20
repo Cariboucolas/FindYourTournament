@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
+import TournamentDetails from "./components/TournamentDetails"
 import TournamentsList from './components/TournamentsList';
 import Profile from './components/Profile';
 import MyProfile from './components/MyProfile';
@@ -36,6 +37,7 @@ function App() {
               <MyProfile />
             </Route>
             <Route path="/profile/:id" component={Profile} />
+            <Route path="/tournament/:id" component={TournamentDetails} />
           </Switch>
         </Router>
       </main>
