@@ -42,7 +42,10 @@ function App() {
               <Profile />
               <Footer />
             </Route>
-            <Route path="/tournament/:id" component={TournamentDetails} />
+            <Route path="/tournament/:id">
+              <TournamentDetails />
+              <Footer />
+            </Route>
           </Switch>
         </Router>
       </main>
