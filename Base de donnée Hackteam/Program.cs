@@ -103,7 +103,7 @@ namespace Base_de_donnée_Hackteam
                     Price = 50,
                     Prize = 1000,
                     TournamentLocation = "Castle of Courtanvaux",
-                    Description = "",
+                    Description = "Commemorates the descent of the Holy Spirit and become an apostle of Jesus Christ",
                     TournamentType = "With Mount",
                     Participants = 50,
                     Champion = "Creddred",
@@ -168,12 +168,12 @@ namespace Base_de_donnée_Hackteam
                 };
                 Tournament tournament12 = new Tournament()
                 {
-                    TournamentName = "",
-                    TournamentDate = Convert.ToDateTime("01/11/1392"),
+                    TournamentName = "Annunciation tournament",
+                    TournamentDate = Convert.ToDateTime("15/02/1392"),
                     Price = 10,
                     Prize = 500,
                     TournamentLocation = "Castle of Falaise",
-                    Description = "Come and entertain Pope Clement VII",
+                    Description = "You can sprinkle your crepes with sugar or even the blood of our fighters, it's up to you",
                     TournamentType = "With Mount",
                     Participants = 30,
                     Champion = "creddred",
@@ -194,7 +194,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Sword, shield",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
-                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_Armors.png", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = true,
                     MountType = "Warhorse",
                     MountTypeIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png", // URL typeIcons
@@ -203,11 +203,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 3,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_bronze.png", // URL RankingIcons
                     SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png" // URL SuccessIcons
 
                 };
@@ -221,7 +221,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Spear",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Breastplate",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -230,11 +230,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 21,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -248,7 +248,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Mace",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Chainmail",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -257,11 +257,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 4,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -275,7 +275,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Wood stick",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted weave",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -284,11 +284,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Aeltor.png", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 25,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -302,20 +302,20 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Two handed sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = true,
                     MountType = "Griffon",
-                    MountTypeIcons = "", // URL typeIcons
+                    MountTypeIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png", // URL typeIcons
                     MountName = "Ragnar",
                     Moto = "Cool, you are food for my pet",
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 1,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_or.png", // URL RankingIcons
                     SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png , https://cdn.discordapp.com/attachments/778897010711330846/779148773964120084/success_3tournament.png" // URL SuccessIcons
 
                 };
@@ -329,7 +329,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Dague",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted weave",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -338,11 +338,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 20,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -356,7 +356,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Bow",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted Weave",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -365,11 +365,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 9,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -383,20 +383,20 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Hammer",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Vikings armor",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = true,
                     MountType = "Wolf",
-                    MountTypeIcons = "", // URL typeIcons
+                    MountTypeIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png", // URL typeIcons
                     MountName = "Canis",
                     Moto = "I have thor's hammer!",
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 2,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_silver.png", // URL RankingIcons
                     SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png" // URL SuccessIcons
 
                 };
@@ -410,20 +410,20 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Scourge",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale armor",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = true,
                     MountType = "Pagasus",
-                    MountTypeIcons = "", // URL typeIcons
+                    MountTypeIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png", // URL typeIcons
                     MountName = "Pegasus",
                     Moto = "My animal is still in the air",
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 11,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -437,20 +437,20 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Axe",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = true,
                     MountType = "Hippogriff",
-                    MountTypeIcons = "", // URL typeIcons
+                    MountTypeIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png", // URL typeIcons
                     MountName = "Buck",
                     Moto = "Comme and measure yourself against me",
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 5,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -464,20 +464,20 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Dagger",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quited weave",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = true,
                     MountType = "Boar",
-                    MountTypeIcons = "", // URL typeIcons
+                    MountTypeIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png", // URL typeIcons
                     MountName = "Grouik",
                     Moto = "My pet isn't fodd",
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 15,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -491,7 +491,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -500,11 +500,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 24,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -518,7 +518,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -527,11 +527,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 23,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -545,7 +545,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Hallebarde",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -554,11 +554,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 6,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -572,7 +572,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Spear",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Breastplate",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -581,11 +581,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 17,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -599,20 +599,20 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Mace",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Chainmail",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = true,
                     MountType = "Unicorn",
-                    MountTypeIcons = "", // URL typeIcons
+                    MountTypeIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png", // URL typeIcons
                     MountName = "Pony",
                     Moto = "Do you know the realy death ?",
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 7,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -626,7 +626,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Scourge",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale Armor",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -635,11 +635,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 18,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -653,7 +653,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Dagger",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted weave",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -662,11 +662,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 22,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -680,20 +680,20 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Scourge",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate Armor",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = true,
                     MountType = "Camel",
-                    MountTypeIcons = "", // URL typeIcons
+                    MountTypeIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png", // URL typeIcons
                     MountName = "Case",
                     Moto = "Say your prayer",
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 8,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -707,7 +707,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate Armor",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -716,11 +716,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 10,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
                     SuccessIcons = "https://cdn.discordapp.com/attachments/778897010711330846/779148773964120084/success_2tournament.png" // URL SuccessIcons
 
                 };
@@ -734,7 +734,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Mace",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Chainmail",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -743,11 +743,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 19,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -761,7 +761,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Breastplate",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -770,11 +770,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 16,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -788,7 +788,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Spear",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -797,11 +797,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 12,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -815,7 +815,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Axe",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale Armor",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -824,11 +824,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 13,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
 
                 };
@@ -842,7 +842,7 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Dagger",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted Weave",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png", // URL armorIcons
                     Mount = false,
                     MountType = "",
                     MountTypeIcons = "", // URL typeIcons
@@ -851,11 +851,11 @@ namespace Base_de_donnée_Hackteam
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 14,
-                    RankingIcons = "", // URL RankingIcons
+                    RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
                     SuccessIcons = "", // URL SuccessIcons
                 };
                 context.AddRange(knight1, knight2, knight3, knight4, knight5, knight6, knight7, knight8, knight9, knight10, knight11, knight12, knight13,
