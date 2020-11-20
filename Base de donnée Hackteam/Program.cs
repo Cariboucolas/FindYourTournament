@@ -190,7 +190,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 24,
                     Victories = 10,
                     Defeats = 1,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_1.png", // URL banner
                     Weapons = "Sword, shield",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
@@ -201,7 +201,7 @@ namespace Base_de_donnée_Hackteam
                     MountName = "Cannasson",
                     Moto = "Houra!",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Anosdagan.png", // URL avatar
-                    Region = "Ile-de-france",
+                    Region = "Francie",
                     Pigeon = "Anosdagan_Iledefrance@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
@@ -217,7 +217,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 32,
                     Victories = 3,
                     Defeats = 6,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_2.png", // URL banner
                     Weapons = "Spear",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Breastplate",
@@ -244,7 +244,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 43,
                     Victories = 25,
                     Defeats = 9,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_3.png", // URL banner
                     Weapons = "Mace",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Chainmail",
@@ -271,7 +271,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 22,
                     Victories = 0,
                     Defeats = 5,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_1", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_4.png", // URL banner
                     Weapons = "Wood stick",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted weave",
@@ -298,7 +298,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 28,
                     Victories = 31,
                     Defeats = 0,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_5.png", // URL banner
                     Weapons = "Two handed sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
@@ -325,7 +325,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 23,
                     Victories = 0,
                     Defeats = 0,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_6.png", // URL banner
                     Weapons = "Dague",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted weave",
@@ -352,7 +352,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 29,
                     Victories = 15,
                     Defeats = 8,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_7.png", // URL banner
                     Weapons = "Bow",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted Weave",
@@ -379,7 +379,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 34,
                     Victories = 25,
                     Defeats = 4,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_8.png", // URL banner
                     Weapons = "Hammer",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Vikings armor",
@@ -406,7 +406,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 31,
                     Victories = 8,
                     Defeats = 6,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_6.png", // URL banner
                     Weapons = "Scourge",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale armor",
@@ -433,7 +433,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 25,
                     Victories = 15,
                     Defeats = 4,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_9.png", // URL banner
                     Weapons = "Axe",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
@@ -460,7 +460,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 25,
                     Victories = 6,
                     Defeats = 4,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_4.png", // URL banner
                     Weapons = "Dagger",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quited weave",
@@ -487,7 +487,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 29,
                     Victories = 1,
                     Defeats = 8,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_10.png", // URL banner
                     Weapons = "Sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
@@ -514,7 +514,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 28,
                     Victories = 2,
                     Defeats = 4,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_11.png", // URL banner
                     Weapons = "Sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
@@ -541,7 +541,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 28,
                     Victories = 19,
                     Defeats = 8,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_5.png", // URL banner
                     Weapons = "Hallebarde",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
@@ -568,7 +568,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 18,
                     Victories = 4,
                     Defeats = 4,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_12.png", // URL banner
                     Weapons = "Spear",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Breastplate",
@@ -595,7 +595,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 27,
                     Victories = 17,
                     Defeats = 9,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_12.png", // URL banner
                     Weapons = "Mace",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Chainmail",
@@ -622,7 +622,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 27,
                     Victories = 5,
                     Defeats = 4,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_9.png", // URL banner
                     Weapons = "Scourge",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale Armor",
@@ -649,7 +649,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 27,
                     Victories = 0,
                     Defeats = 1,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_6.png", // URL banner
                     Weapons = "Dagger",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted weave",
@@ -676,7 +676,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 27,
                     Victories = 9,
                     Defeats = 4,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_11.png", // URL banner
                     Weapons = "Scourge",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate Armor",
@@ -687,8 +687,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "Case",
                     Moto = "Say your prayer",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Valeranos.png", // URL avatar
-                    Region = "Delfinat",
-                    Pigeon = "Valeranos_Delfinat@pigeon.com", //adress mail
+                    Region = "Normaundie",
+                    Pigeon = "Valeranos_Normaundie@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -703,7 +703,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 44,
                     Victories = 37,
                     Defeats = 25,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_1.png", // URL banner
                     Weapons = "Sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate Armor",
@@ -730,7 +730,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 21,
                     Victories = 3,
                     Defeats = 1,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_1.png", // URL banner
                     Weapons = "Mace",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Chainmail",
@@ -757,7 +757,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 24,
                     Victories = 7,
                     Defeats = 3,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_2.png", // URL banner
                     Weapons = "Sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Breastplate",
@@ -784,7 +784,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 28,
                     Victories = 14,
                     Defeats = 8,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_11.png", // URL banner
                     Weapons = "Spear",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
@@ -811,7 +811,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 36,
                     Victories = 14,
                     Defeats = 11,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_10.png", // URL banner
                     Weapons = "Axe",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale Armor",
@@ -838,7 +838,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 26,
                     Victories = 18,
                     Defeats = 9,
-                    Banner = "", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_7.png", // URL banner
                     Weapons = "Dagger",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted Weave",
@@ -849,8 +849,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "",
                     Moto = "You were born dust and you will be again",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Vallande.png", // URL avatar
-                    Region = "Delfinat",
-                    Pigeon = "Vallande_Delfinat@pigeon.com", //adress mail
+                    Region = "Orleanois",
+                    Pigeon = "Vallande_Orleanois@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
