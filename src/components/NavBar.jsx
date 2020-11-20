@@ -46,7 +46,7 @@ class NavBar extends React.Component {
         onStateChange={(state) => this.handleStateChange(state)}
       >
         <Link onClick={() => this.closeMenu()} to="/" >
-          <h1 className="home-logo">FYT</h1>
+          <h1 className="home-navbar">FYT</h1>
         </Link>
         <Link
           id="about"

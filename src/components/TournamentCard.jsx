@@ -13,9 +13,9 @@ const TournamentCard = ({tournament}) => {
             <img className="tournament-img" src={images} alt={tournamentName}/>
             <div className="tournament-info">
                 <div>
-                    <h2>{tournamentName}</h2>
-                    <p>{description}</p>
-                    <p>{tournamentLocation}</p>
+                    <h2 className="name">{tournamentName}</h2>
+                    <p className="description">{description}</p>
+                    <p className="location">{tournamentLocation}</p>
                 </div>
                 <div className="view">View</div>
             </div>

@@ -9,13 +9,33 @@
     color:#FFFFFF;
     text-align:center;
     transition: all 0.2s;
-    font-size: 3vh;
+    font-size: 4vh;
     height: 8%;
     }
 .view:hover{
     color:#000000;
     background-color:#FFFFFF;
     
+}
+.tournament-card{
+    margin-bottom: 5vh;
+    margin: 0 2%;
+}
+.name{
+    font-size: 7vh;
+}
+.description{
+    word-wrap: break-word;
+    font-size: 6vh;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.tournament-img{
+    height:30vh;
+}
+.location{
+    font-size: 6vh;
 }
 /* .tournament-card{
     display: flex;

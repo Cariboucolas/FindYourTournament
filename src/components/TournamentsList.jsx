@@ -70,7 +70,7 @@ const TournamentsList = () => {
           "prize": 1000,
           "tournamentLocation": "Castle of Courtanvaux",
           "tournamentType": "With Mount",
-          "description": "",
+          "description": "Commemorates the descent of the Holy Spirit and become an apostle of Jesus Christ",
           "participants": 50,
           "champion": "",
           "images": "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_7.png",
@@ -87,7 +87,7 @@ const TournamentsList = () => {
           "description": "Many mothers lose their children during this tournament",
           "participants": 30,
           "champion": "Creddred",
-          "images": "",
+          "images": "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_4.png",
           "videos": ""
         },
         {
@@ -115,7 +115,7 @@ const TournamentsList = () => {
           "description": "The day after the feast of the dead: enough to honor all these fighters who left too early",
           "participants": 100,
           "champion": "",
-          "images": "",
+          "images": "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_9.png",
           "videos": ""
         },
         {
@@ -170,7 +170,7 @@ const TournamentsList = () => {
 
     return (
         <>
-            <div>Tournaments</div>
+            <div className="tournaments">Tournaments</div>
             <div className="container">
                 {tournaments.map(tournament => 
                     <TournamentCard tournament={tournament} />

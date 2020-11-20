@@ -18,11 +18,12 @@ function App() {
         <Router>
           <ScrollToTop />
           <NavBar />
-          <Link to="/" >
-            <h1 className="home-logo">FYT</h1>
-          </Link>
+          
           <Switch>
             <Route exact path="/">
+              <Link to="/" >
+                <h1 className="home-logo">FYT</h1>
+              </Link>
               <Home />
             </Route>
             <Route path="/tournaments">

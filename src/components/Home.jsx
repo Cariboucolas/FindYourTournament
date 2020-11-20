@@ -8,22 +8,10 @@ function Home() {
 
   return (
     <>
-      <div class="content">
+      <div class="lightning flashit content ">
         <p className="slogan">Fight to the Death</p>
       </div>
       <img  fill="red" stroke="green" class="splatter" src={splash} alt="splash"></img>
-
-      {/* <div
-        style={{
-          backgroundImage: `url(${background_image})`,
-          height: '100vh',
-          width: '100%',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center center'
-        }}
-        >
-      </div> */}
-      
     </>
   )
 }
