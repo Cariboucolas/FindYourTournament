@@ -23,7 +23,7 @@ namespace Base_de_donnée_Hackteam
                     TournamentType = "With Mount",
                     Participants = 100,  
                     Champion = "Creddred",
-                    Images = "", // URL image tournoi
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_1.png", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament2 = new Tournament()
@@ -37,7 +37,7 @@ namespace Base_de_donnée_Hackteam
                     TournamentType = "With mount",
                     Participants = 50,
                     Champion = "Anosdagan",
-                    Images = "", // URL image tournoi
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_2.png", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament3 = new Tournament()
@@ -51,7 +51,7 @@ namespace Base_de_donnée_Hackteam
                     TournamentType = "Without Mount",
                     Participants = 25,
                     Champion = "Holdjamy",
-                    Images = "", // URL image tournoi
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_3.png", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament4 = new Tournament()
@@ -65,7 +65,7 @@ namespace Base_de_donnée_Hackteam
                     TournamentType = "Without Mount",
                     Participants = 30,
                     Champion = "Creddred",
-                    Images = "", // URL image tournoi
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_4.png", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament5 = new Tournament()
@@ -79,7 +79,7 @@ namespace Base_de_donnée_Hackteam
                     TournamentType = "With Mount",
                     Participants = 75,
                     Champion = "Asnosdagan",
-                    Images = "", // URL image tournoi
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_5.png", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament6 = new Tournament()
@@ -93,7 +93,7 @@ namespace Base_de_donnée_Hackteam
                     TournamentType = "Without Mount",
                     Participants = 50,
                     Champion = "",
-                    Images = "", // URL image tournoi
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_6.png", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament7 = new Tournament()
@@ -106,8 +106,8 @@ namespace Base_de_donnée_Hackteam
                     Description = "",
                     TournamentType = "With Mount",
                     Participants = 50,
-                    Champion = "",
-                    Images = "", // URL image tournoi
+                    Champion = "Creddred",
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_7.png", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament8 = new Tournament()
@@ -120,8 +120,8 @@ namespace Base_de_donnée_Hackteam
                     Description = "The Assumption of the Blessed Virgin and also of our fighters",
                     TournamentType = "With Mount",
                     Participants = 100,
-                    Champion = "",
-                    Images = "", // URL image tournoi
+                    Champion = "Holdjamy",
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_8.png", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament9 = new Tournament()
@@ -133,27 +133,55 @@ namespace Base_de_donnée_Hackteam
                     TournamentLocation = "Castle of Falaise",
                     Description = "The day after the feast of the dead: enough to honor all these fighters who left too early",
                     TournamentType = "Without Mount",
-                    Participants = 100,
-                    Champion = "",
-                    Images = "", // URL image tournoi
+                    Participants = 50,
+                    Champion = "Anosdagan",
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_9.png", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
                 Tournament tournament10 = new Tournament()
                 {
                     TournamentName = "Charles V tournament ",
                     TournamentDate = Convert.ToDateTime("01/11/1392"),
-                    Price = 25,
+                    Price = 5,
+                    Prize = 100,
+                    TournamentLocation = "Castle of Veauce",
+                    Description = "Fight here or join the ranks for war!",
+                    TournamentType = "With Mount",
+                    Participants = 20,
+                    Champion = "Anosdagan",
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_10.png", // URL image tournoi
+                    Videos = "", // URL image tournoi
+                };
+                Tournament tournament11 = new Tournament()
+                {
+                    TournamentName = "Clément VII tournament ",
+                    TournamentDate = Convert.ToDateTime("01/11/1392"),
+                    Price = 10,
                     Prize = 500,
                     TournamentLocation = "Castle of Falaise",
-                    Description = "The day after the feast of the dead: enough to honor all these fighters who left too early",
-                    TournamentType = "Without Mount",
-                    Participants = 100,
-                    Champion = "",
-                    Images = "", // URL image tournoi
+                    Description = "Come and entertain Pope Clement VII",
+                    TournamentType = "With Mount",
+                    Participants = 30,
+                    Champion = "creddred",
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_11.png", // URL image tournoi
+                    Videos = "", // URL image tournoi
+                };
+                Tournament tournament12 = new Tournament()
+                {
+                    TournamentName = "",
+                    TournamentDate = Convert.ToDateTime("01/11/1392"),
+                    Price = 10,
+                    Prize = 500,
+                    TournamentLocation = "Castle of Falaise",
+                    Description = "Come and entertain Pope Clement VII",
+                    TournamentType = "With Mount",
+                    Participants = 30,
+                    Champion = "creddred",
+                    Images = "http://milhiecreation.com/imagesHackaton/Tournament/Icon_tournament_12.png", // URL image tournoi
                     Videos = "", // URL image tournoi
                 };
 
-                context.AddRange(tournament1, tournament2, tournament3, tournament4, tournament5, tournament6, tournament7, tournament8, tournament9,tournament10);
+                context.AddRange(tournament1, tournament2, tournament3, tournament4, tournament5, tournament6, tournament7, tournament8, tournament9,tournament10, tournament11, tournament12);
                 context.SaveChanges();
 
                 Knight knight1 = new Knight()
@@ -166,21 +194,21 @@ namespace Base_de_donnée_Hackteam
                     Weapons = "Sword, shield",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
-                    ArmorsIcons = "", // URL armorIcons
+                    ArmorsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_Armors.png", // URL armorIcons
                     Mount = true,
                     MountType = "Warhorse",
-                    MountTypeIcons = "", // URL typeIcons
+                    MountTypeIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png", // URL typeIcons
                     MountName = "Cannasson",
                     Moto = "Houra!",
                     Avatar = "", // URL avatar
                     Region = "",
                     Pigeon = "@pigeon.com", //adress mail
-                    PigeonIcons = "", // URL PigeonIcons
+                    PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 3,
                     RankingIcons = "", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png" // URL SuccessIcons
 
                 };
                 Knight knight2 = new Knight()
@@ -204,7 +232,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 21,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -231,7 +259,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 4,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -258,7 +286,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = false,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 25,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -285,10 +313,10 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 1,
                     RankingIcons = "", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png , https://cdn.discordapp.com/attachments/778897010711330846/779148773964120084/success_3tournament.png" // URL SuccessIcons
 
                 };
                 Knight knight6 = new Knight()
@@ -312,7 +340,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 20,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -339,7 +367,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 9,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -366,10 +394,10 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 2,
                     RankingIcons = "", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png" // URL SuccessIcons
 
                 };
                 Knight knight9 = new Knight()
@@ -393,7 +421,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 11,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -420,7 +448,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 5,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -447,7 +475,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 15,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -474,7 +502,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = false,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 24,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -501,7 +529,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = false,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 23,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -528,7 +556,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 6,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -555,7 +583,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 17,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -582,7 +610,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 7,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -609,7 +637,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 18,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -636,7 +664,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = false,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 22,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -663,7 +691,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 8,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -690,10 +718,10 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 10,
                     RankingIcons = "", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "https://cdn.discordapp.com/attachments/778897010711330846/779148773964120084/success_2tournament.png" // URL SuccessIcons
 
                 };
                 Knight knight21 = new Knight()
@@ -717,7 +745,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 19,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -744,7 +772,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 16,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -771,7 +799,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 12,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -798,7 +826,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = true,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 13,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "" // URL SuccessIcons
@@ -825,7 +853,7 @@ namespace Base_de_donnée_Hackteam
                     Pigeon = "@pigeon.com", //adress mail
                     PigeonIcons = "", // URL PigeonIcons
                     Alive = false,
-                    AliveIcons = "", // URL AliveIcons
+                    AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 14,
                     RankingIcons = "", // URL RankingIcons
                     SuccessIcons = "", // URL SuccessIcons
