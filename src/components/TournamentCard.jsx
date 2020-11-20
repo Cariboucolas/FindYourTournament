@@ -24,6 +24,7 @@ const TournamentCard = ({tournament}) => {
                 <Link to={`/tournament/${tournamentId}`} >
                 <div className="view">View</div>
                 </Link>
+
             </div>
         </div>
     );

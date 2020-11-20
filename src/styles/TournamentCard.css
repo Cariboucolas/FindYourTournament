@@ -27,6 +27,7 @@
 .description{
     word-wrap: break-word;
     /* font-: 6vh; */
+
     margin: auto;
     width: 80%;
     text-align: center;
@@ -38,6 +39,7 @@
 /* .location{
     font-size: 6vh;
 } */
+
 /* .tournament-card{
     display: flex;
     flex-direction: column;

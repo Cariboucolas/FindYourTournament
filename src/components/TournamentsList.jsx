@@ -182,6 +182,7 @@ const TournamentsList = () => {
 
     </>
   );
+
 }
 
 export default TournamentsList;
