@@ -335,7 +335,7 @@ namespace Base_de_donnée_Hackteam
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
                     Moto = "Tzi shu force is with me",
-                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Daganho.png", // URL avatar
+                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Daganho.jpg", // URL avatar
                     Region = "Normaundie",
                     Pigeon = "Daganho_Normaundie@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
@@ -605,7 +605,7 @@ namespace Base_de_donnée_Hackteam
                     MountTypeIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png", // URL typeIcons
                     MountName = "Pony",
                     Moto = "Do you know the realy death ?",
-                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Jeain.png", // URL avatar
+                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Jeain.jpg", // URL avatar
                     Region = "Aquitaine",
                     Pigeon = "Jeain_Aquitaine@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
@@ -632,7 +632,7 @@ namespace Base_de_donnée_Hackteam
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
                     Moto = "Could you be nice to me ?",
-                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Nardarnold.png", // URL avatar
+                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Nardarnold.jpg", // URL avatar
                     Region = "Chaimpaigne",
                     Pigeon = "Nardarnold_Chaimpagne@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
@@ -659,7 +659,7 @@ namespace Base_de_donnée_Hackteam
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
                     Moto = "Let's go",
-                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Tuslot.png", // URL avatar
+                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Tuslot.jpg", // URL avatar
                     Region = "Orleanois",
                     Pigeon = "Tuslot_Orleanois@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
@@ -713,7 +713,7 @@ namespace Base_de_donnée_Hackteam
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
                     Moto = "There was a time when i was first",
-                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Reindric.png", // URL avatar
+                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Reindric.jpg", // URL avatar
                     Region = "Francie",
                     Pigeon = "Reindric_Francie@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
@@ -767,7 +767,7 @@ namespace Base_de_donnée_Hackteam
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
                     Moto = "I learn every day",
-                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Tanje.png", // URL avatar
+                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Tanje.jpg", // URL avatar
                     Region = "Berry",
                     Pigeon = "Tanje_Berry@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
@@ -821,7 +821,7 @@ namespace Base_de_donnée_Hackteam
                     MountTypeIcons = "", // URL typeIcons
                     MountName = "",
                     Moto = "like King Leonidas: Spartan what is your profession ? HAOU!",
-                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Thurward.png", // URL avatar
+                    Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Thurward.jpg", // URL avatar
                     Region = "Berry",
                     Pigeon = "Thurward_Berry@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
