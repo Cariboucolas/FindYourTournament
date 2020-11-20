@@ -694,7 +694,7 @@ function Profile() {
         
       </div> */}
 
-      <div className="profile-info-container">
+      <div className="profile-info-container-list">
 
         <div className="stats-container">
           <h4 className="title-section">My stats</h4>
@@ -708,7 +708,7 @@ function Profile() {
           </div> */}
         </div>
 
-        <div className="profile-container">
+        <div className="profile-container-list">
           <h4 className="title-section">My caracteristics</h4>
           <div><img src={knight.weaponsIcons} alt="weapons" className="icons" /> : {knight.weapons}</div>
           <div><img src={knight.mountTypeIcons} alt="mount" className="icons" />: {knight.mount ? knight.mountType + "Name:" + knight.mountName : "none"}</div>

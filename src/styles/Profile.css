@@ -41,7 +41,7 @@
     margin: 20px
   }
   
-  .profile-info-container {
+  .profile-info-container-list {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,7 +57,7 @@
     height: 250px
   }
   
-  .profile-container {
+  .profile-container-list {
     display: flex;
     flex-direction: column;
     text-align: left;
