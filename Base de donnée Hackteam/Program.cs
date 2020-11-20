@@ -336,8 +336,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "",
                     Moto = "Tzi shu force is with me",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Daganho.png", // URL avatar
-                    Region = "Poetou",
-                    Pigeon = "Daganho_Poetou@pigeon.com", //adress mail
+                    Region = "Normaundie",
+                    Pigeon = "Daganho_Normaundie@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -406,7 +406,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 31,
                     Victories = 8,
                     Defeats = 6,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_6.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_2.png", // URL banner
                     Weapons = "Scourge",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale armor",
@@ -417,8 +417,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "Pegasus",
                     Moto = "My animal is still in the air",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Jasmor.png", // URL avatar
-                    Region = "Poetou",
-                    Pigeon = "Jasmor_Poetou@pigeon.com", //adress mail
+                    Region = "Berry",
+                    Pigeon = "Jasmor_Berry@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -433,7 +433,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 25,
                     Victories = 15,
                     Defeats = 4,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_9.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_7.png", // URL banner
                     Weapons = "Axe",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate armor",
@@ -444,8 +444,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "Buck",
                     Moto = "Comme and measure yourself against me",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Leodagan.png", // URL avatar
-                    Region = "Santonge",
-                    Pigeon = "Leodagan_Santonge@pigeon.com", //adress mail
+                    Region = "Orleanois",
+                    Pigeon = "Leodagan_Orleanois@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -487,7 +487,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 29,
                     Victories = 1,
                     Defeats = 8,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_10.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_8.png", // URL banner
                     Weapons = "Sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
@@ -498,8 +498,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "",
                     Moto = "I will be the best !",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Nulfar.png", // URL avatar
-                    Region = "Toraine",
-                    Pigeon = "Nulfar_Toraine@pigeon.com", //adress mail
+                    Region = "Aquitaine",
+                    Pigeon = "Nulfar_Aquitaine@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
@@ -514,7 +514,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 28,
                     Victories = 2,
                     Defeats = 4,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_11.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_6.png", // URL banner
                     Weapons = "Sword",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
@@ -568,7 +568,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 18,
                     Victories = 4,
                     Defeats = 4,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_12.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_5.png", // URL banner
                     Weapons = "Spear",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Breastplate",
@@ -579,8 +579,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "",
                     Moto = "Drop to my halberd",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Bojas.png", // URL avatar
-                    Region = "Aunis",
-                    Pigeon = "Bojas_Aunis@pigeon.com", //adress mail
+                    Region = "Languedoc",
+                    Pigeon = "Bojas_Languedoc@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -595,7 +595,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 27,
                     Victories = 17,
                     Defeats = 9,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_12.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_8.png", // URL banner
                     Weapons = "Mace",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Chainmail",
@@ -606,8 +606,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "Pony",
                     Moto = "Do you know the realy death ?",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Jeain.png", // URL avatar
-                    Region = "Aunis",
-                    Pigeon = "Jeain_Aunis@pigeon.com", //adress mail
+                    Region = "Aquitaine",
+                    Pigeon = "Jeain_Aquitaine@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -622,7 +622,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 27,
                     Victories = 5,
                     Defeats = 4,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_9.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_4.png", // URL banner
                     Weapons = "Scourge",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale Armor",
@@ -633,8 +633,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "",
                     Moto = "Could you be nice to me ?",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Nardarnold.png", // URL avatar
-                    Region = "Santonge",
-                    Pigeon = "Nardarnold_Santonge@pigeon.com", //adress mail
+                    Region = "Chaimpaigne",
+                    Pigeon = "Nardarnold_Chaimpagne@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -649,7 +649,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 27,
                     Victories = 0,
                     Defeats = 1,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_6.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_7.png", // URL banner
                     Weapons = "Dagger",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Quilted weave",
@@ -660,8 +660,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "",
                     Moto = "Let's go",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Tuslot.png", // URL avatar
-                    Region = "Poetou",
-                    Pigeon = "Tuslot_Poetou@pigeon.com", //adress mail
+                    Region = "Orleanois",
+                    Pigeon = "Tuslot_Orleanois@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = false,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
@@ -676,7 +676,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 27,
                     Victories = 9,
                     Defeats = 4,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_11.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_6.png", // URL banner
                     Weapons = "Scourge",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Plate Armor",
@@ -784,7 +784,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 28,
                     Victories = 14,
                     Defeats = 8,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_11.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_3.png", // URL banner
                     Weapons = "Spear",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Harness",
@@ -795,8 +795,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "",
                     Moto = "Call me the last punishment",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Telperce.png", // URL avatar
-                    Region = "Normaundie",
-                    Pigeon = "Telperce_Normaundie@pigeon.com", //adress mail
+                    Region = "Lyonnois",
+                    Pigeon = "Telperce_Lyonnois@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
@@ -811,7 +811,7 @@ namespace Base_de_donnée_Hackteam
                     Age = 36,
                     Victories = 14,
                     Defeats = 11,
-                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_10.png", // URL banner
+                    Banner = "http://milhiecreation.com/imagesHackaton/FinalBanners/banner_2.png", // URL banner
                     Weapons = "Axe",
                     WeaponsIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_weapon.png", // URL weaponsIcons
                     Armors = "Scale Armor",
@@ -822,8 +822,8 @@ namespace Base_de_donnée_Hackteam
                     MountName = "",
                     Moto = "like King Leonidas: Spartan what is your profession ? HAOU!",
                     Avatar = "http://milhiecreation.com/imagesHackaton/Avatar/Thurward.png", // URL avatar
-                    Region = "Toraine",
-                    Pigeon = "Thurward_Toraine@pigeon.com", //adress mail
+                    Region = "Berry",
+                    Pigeon = "Thurward_Berry@pigeon.com", //adress mail
                     PigeonIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconPigeonWhite.png", // URL PigeonIcons
                     Alive = true,
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
