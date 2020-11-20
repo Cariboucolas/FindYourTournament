@@ -17,7 +17,6 @@ namespace BackHackaton
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-
         }
         private static void CreateDatabase()
         {
