@@ -14,8 +14,12 @@ function RankingCard({ knight }) {
             <img src={knight.avatar} alt={knight.knightName} />
           </div>
           <h2>{knight.knightName} </h2>
-          <div>Victories: {knight.victories}</div>
-          <div>Defeats: {knight.defeats}</div>
+          <div>Victories:
+          <div className="victories-color">{knight.victories}</div>
+          </div>
+          <div>Defeats:
+          <div className="defeats-color">{knight.defeats}</div>
+          </div>
           <div className="badge-rank-card">
             <img src={knight.ranking} alt="rank" />
           </div>

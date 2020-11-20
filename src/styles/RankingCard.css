@@ -3,13 +3,26 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 12px;
-  background: #ED213A;
-  background: -webkit-linear-gradient(to bottom, #93291E, #ED213A);
-  background: linear-gradient(to bottom, #93291E, #ED213A);
+  background: black;
+  /* background: -webkit-linear-gradient(to bottom, #93291E, #ED213A);
+  background: linear-gradient(to bottom, #93291E, #ED213A); */
   max-width: 60%;
   align-items: center;
   margin: auto;
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.card-ranking-container:hover{
+  color:#000000;
+  background-color:darkred;
+}
+
+.victories-color {
+  color: green
+}
+
+.defeats-color {
+  color: red
 }

@@ -161,7 +161,7 @@ function TournamentDetails() {
       <Link to="/" >
         <h1 className="site-logo">FYT</h1>
       </Link>
-      <div className="tournament-card">
+      <div className="tournament-details">
         <img className="tournament-img" src={tournament.images} alt={tournament.tournamentName} />
         <div className="tournament-info">
           <div>

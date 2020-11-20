@@ -6,7 +6,6 @@ import TournamentsList from './components/TournamentsList';
 import Profile from './components/Profile';
 import MyProfile from './components/MyProfile';
 import RankingList from './components/RankingList'
-import Footer from "./components/Footer";
 import NavBar from './components/NavBar';
 import Home from './components/Home'
 import ScrollToTop from './components/ScrollToTop';
@@ -41,7 +40,6 @@ function App() {
           </Switch>
         </Router>
       </main>
-      <Footer />
     </div>
   );
 }

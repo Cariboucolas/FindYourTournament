@@ -28,10 +28,13 @@ a{
 
 .site-logo {
   font-family: 'Nanum Brush Script', cursive;
-  font-size: 15vh;
-  margin-top: 10px;
+  font-size: 9vh;
+  margin-top: 30px;
 }
 
+h1 {
+  font-size: 400%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
