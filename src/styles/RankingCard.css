@@ -42,23 +42,23 @@
   display: flex;
   flex-direction: row;
   padding: 10px;
-  font-size: 130%
+  font-size: 140%
 }
 
 .icon-ranking {
-  width: 10%; 
+  width: 8%; 
   border-radius: 50%;
   padding: 5px
 }
 
 .icon-success {
-  width: 10%; 
+  width: 8%; 
   border-radius: 50%;
   padding: 5px
 }
 
 .icon-banner {
-  width: 10%; 
+  width: 8%; 
   border-radius: 50%;
   padding: 5px
 }
