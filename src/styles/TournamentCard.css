@@ -19,11 +19,19 @@
 }
 .tournament-card{
     margin-bottom: 5vh;
-    margin: 0 2%;
+    margin: 3%;
+    width: 70%;
+    padding: 2%;
+    border: solid white;
+    background-image: url("https://thumbs.dreamstime.com/b/grunge-paper-vintage-whith-blood-16701532.jpg");
 }
+
 .name{
     font-size: 5vh;
+    margin: 0%;
+    margin-bottom: 5%;
 }
+
 .description{
     word-wrap: break-word;
     /* font-: 6vh; */
