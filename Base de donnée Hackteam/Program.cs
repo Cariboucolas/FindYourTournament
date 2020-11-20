@@ -208,7 +208,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 3,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_bronze.png", // URL RankingIcons
-                    SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png" // URL SuccessIcons
+                    SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png", // URL SuccessIcons
 
                 };
                 Knight knight2 = new Knight()
@@ -235,7 +235,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 21,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight3 = new Knight()
@@ -262,7 +262,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 4,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight4 = new Knight()
@@ -289,7 +289,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 25,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight5= new Knight()
@@ -316,7 +316,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 1,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_or.png", // URL RankingIcons
-                    SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png , https://cdn.discordapp.com/attachments/778897010711330846/779148773964120084/success_3tournament.png" // URL SuccessIcons
+                    SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png", // URL SuccessIcons
 
                 };
                 Knight knight6 = new Knight()
@@ -343,7 +343,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 20,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight7 = new Knight()
@@ -370,7 +370,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 9,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight8 = new Knight()
@@ -397,7 +397,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 2,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_silver.png", // URL RankingIcons
-                    SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png" // URL SuccessIcons
+                    SuccessIcons = "http://milhiecreation.com/imagesHackaton/success/success_1tournament.png", // URL SuccessIcons
 
                 };
                 Knight knight9 = new Knight()
@@ -424,7 +424,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 11,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight10 = new Knight()
@@ -451,7 +451,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 5,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight11 = new Knight()
@@ -478,7 +478,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 15,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight12 = new Knight()
@@ -505,7 +505,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 24,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight13 = new Knight()
@@ -532,7 +532,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 23,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight14 = new Knight()
@@ -559,7 +559,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 6,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight15 = new Knight()
@@ -586,7 +586,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 17,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight16 = new Knight()
@@ -613,7 +613,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 7,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight17 = new Knight()
@@ -640,7 +640,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 18,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight18 = new Knight()
@@ -667,7 +667,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconSkullWhite.png", // URL AliveIcons
                     Ranking = 22,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight19 = new Knight()
@@ -694,7 +694,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 8,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_celadon.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight20 = new Knight()
@@ -748,7 +748,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 19,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight22 = new Knight()
@@ -775,7 +775,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 16,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight23 = new Knight()
@@ -802,7 +802,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 12,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight24 = new Knight()
@@ -829,7 +829,7 @@ namespace Base_de_donnée_Hackteam
                     AliveIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconHeartWhite.png", // URL AliveIcons
                     Ranking = 13,
                     RankingIcons = "http://milhiecreation.com/imagesHackaton/FinalIcon/IconRank_opaline.png", // URL RankingIcons
-                    SuccessIcons = "" // URL SuccessIcons
+                    SuccessIcons = "", // URL SuccessIcons
 
                 };
                 Knight knight25 = new Knight()
