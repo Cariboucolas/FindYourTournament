@@ -13,6 +13,7 @@ function Profile() {
 
   return (
     <>
+  
       <h1></h1>
 
       <h3>My stats</h3>
