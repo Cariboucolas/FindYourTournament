@@ -10,7 +10,6 @@
 
 main {
   min-height: 100vh;
-  font-family: 'roboto';
 }
 
 a{
@@ -24,6 +23,7 @@ a{
   font-family: 'Nanum Brush Script', cursive;
   font-size: 25vh;
   margin: 1%;
+  z-index: 1;
 }
 
 .site-logo {
