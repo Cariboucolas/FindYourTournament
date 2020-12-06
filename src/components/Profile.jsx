@@ -18,7 +18,7 @@ const knightsArr = [
     "armorsIcons": "http://milhiecreation.com/imagesHackaton/FinalIcon/Icon_armor.png",
     "mount": false,
     "mountType": "",
-    "mountTypeIcons": "",
+        "mountTypeIcons": "http://milhiecreation.com/imagesHackaton/FinalIcon/IconMount.png",
     "mountName": "",
     "moto": "I will be the best !",
     "avatar": "http://milhiecreation.com/imagesHackaton/Avatar/Nulfar.png",
