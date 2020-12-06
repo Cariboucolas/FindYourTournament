@@ -28,7 +28,7 @@
 }
 
 .tournament-name{
-    font-size: 10vh;
+    font-size: 7vh;
     font-family: 'Nanum Brush Script', cursive;
     margin: 0%;
     margin-bottom: 5%;
@@ -36,7 +36,7 @@
 
 .description{
     word-wrap: break-word;
-    /* font-: 6vh; */
+    font-size: 3vh;
 
     margin: auto;
     width: 80%;
@@ -46,9 +46,9 @@
     height:30vh;
 }
 
-/* .location{
-    font-size: 6vh;
-} */
+.location{
+    font-size: 2vh;
+}
 
 /* .tournament-card{
     display: flex;
@@ -60,7 +60,9 @@
     height: 20vh;
     width: 20vw;
 }
+*/ 
 .tournament-info{
+    font-size: 2vh;
     display:flex;
     flex-direction: row;
 }
